@@ -1,0 +1,83 @@
+.CyberStoreHome .HeroSection {
+  background-color: #211c24;
+  padding: 0 60px;
+  overflow: hidden;
+}
+
+.CyberStoreHome .HeroTagline {
+  color: #fff;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  margin-bottom: 24px;
+  opacity: 0.4;
+}
+
+.CyberStoreHome .HeroTitle {
+  color: #fff;
+  font-family: Inter;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 100;
+  letter-spacing: -0.96px;
+  display: flex;
+  gap: 20px;
+  margin-bottom: 24px;
+}
+
+.CyberStoreHome .HeroTitle p {
+  font-weight: 600;
+}
+
+.CyberStoreHome .HeroDescription {
+  color: #909090;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+
+.CyberStoreHome .HeroButtonContainer {
+  display: inline-block;
+  border-radius: 6px;
+  border: 1px solid white;
+  padding: 15px 50px;
+  text-align: center;
+}
+
+.CyberStoreHome .HeroButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
+  font-weight: 500;
+}
+
+@media (max-width: 992px) {
+  .HeroSection {
+    height: auto !important;
+  }
+
+  .HeroTextContent {
+    text-align: center;
+    margin-top: 80px;
+    padding: 0 30px;
+  }
+
+  .HeroTitle {
+    display: inline !important;
+    text-align: center;
+  }
+
+  .HeroImage {
+    padding: 0 30px;
+    width: 100%;
+    height: auto;
+  }
+}
