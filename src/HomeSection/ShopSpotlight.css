@@ -6,7 +6,6 @@
 
 .FeaturedProductsSection {
   display: grid;
-
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 310px 310px;
   grid-template-areas:
@@ -40,7 +39,7 @@
 .ProductImageMacbook {
   flex: 0 0 300px;
   position: relative;
-  right: -100px;
+  right: -50px;
   z-index: 1;
 }
 
@@ -56,6 +55,10 @@
   background: #111;
   color: white;
   overflow: hidden;
+}
+
+.AppleVisionPro h3 {
+  font-weight: 300;
 }
 
 .ProductCard {
@@ -172,11 +175,11 @@ ProductInfo {
     height: auto !important;
     display: flex;
     flex-direction: column;
+    text-align: center;
   }
 
   .ProductCard,
-  .ProductFeatured,
-  .MacbookAir {
+  .ProductFeatured {
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -187,8 +190,7 @@ ProductInfo {
     padding: 20px 0 20px 0 !important;
   }
 
-  .ProductImage,
-  .ProductImageMacbook {
+  .ProductImage {
     position: static;
     transform: none;
     width: 80%; /* or 100% if you want full width */
@@ -212,6 +214,7 @@ ProductInfo {
     font-size: 36px;
     line-height: 32px;
     text-align: center;
+    margin-bottom: 16px;
   }
 
   .ProductCta {
@@ -225,5 +228,30 @@ ProductInfo {
 
   .AppleAirPods {
     padding-left: 0 !important;
+  }
+
+  .P5content {
+    padding: 0 20px;
+  }
+
+  .MacbookAir {
+    align-items: center;
+    flex-direction: column-reverse;
+    justify-content: center;
+    height: auto;
+    overflow: visible;
+    width: 100%;
+    padding: 20px 16px 20px 16px !important;
+  }
+
+  .ProductImageMacbook {
+    padding: 0 !important;
+  }
+
+  .ProductImageMacbook {
+    position: static;
+    transform: none;
+    width: 80%; /* or 100% if you want full width */
+    max-width: 400px;
   }
 }

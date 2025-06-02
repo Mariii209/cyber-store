@@ -37,7 +37,9 @@ export default function ShopSpotlight() {
             <img src={AppleVisionPro} alt="Apple Vision Pro" />
           </div>
           <div className="ProductInfo">
-            <h3>Apple Vision Pro</h3>
+            <h3>
+              Apple Vision <strong>Pro</strong>{" "}
+            </h3>
             <p className="">An immersive way to experience entertainment.</p>
           </div>
         </div>
