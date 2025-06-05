@@ -1,0 +1,66 @@
+.Category {
+  margin-top: 80px;
+}
+
+.Category .CategoryBrowser {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.Category h4 {
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0.24px;
+}
+
+.Arrow {
+  font-size: 24px;
+}
+
+.CategoryList {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(100px, 1fr));
+  gap: 40px;
+}
+
+.CategoryList .CategoryItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #ededed;
+  padding: 24px 0;
+  border-radius: 15px;
+}
+
+.CategoryItem p {
+  margin: 8px 0 0;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.CategoryItem .CategoryIcon {
+  font-size: 24px;
+}
+
+@media (max-width: 992px) {
+  .CategoryList {
+    grid-template-columns: repeat(3, minmax(100px, 1fr));
+    gap: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .CategoryList {
+    grid-template-columns: repeat(2, minmax(100px, 1fr));
+    gap: 16px;
+  }
+}
