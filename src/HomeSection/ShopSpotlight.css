@@ -5,6 +5,8 @@
 }
 
 .FeaturedProductsSection {
+  overflow: hidden;
+
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 310px 310px;
