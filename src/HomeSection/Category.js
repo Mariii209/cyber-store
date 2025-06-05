@@ -7,8 +7,8 @@ export default function Category() {
       <div className="CategoryBrowser">
         <h4>Browse By Category</h4>
         <div>
-          <i class="fa-regular fa-circle-left me-4 Arrow"></i>
-          <i class="fa-regular fa-circle-right Arrow"></i>
+          <i class="fa-regular fa-circle-left  Arrow LeftArrow"></i>
+          <i class="fa-regular fa-circle-right Arrow RrightArrow"></i>
         </div>
       </div>
       <div className="CategoryList">

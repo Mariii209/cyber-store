@@ -22,6 +22,10 @@
   font-size: 24px;
 }
 
+.LeftArrow {
+  margin-right: 25px;
+}
+
 .CategoryList {
   display: grid;
   grid-template-columns: repeat(6, minmax(100px, 1fr));
@@ -62,5 +66,9 @@
   .CategoryList {
     grid-template-columns: repeat(2, minmax(100px, 1fr));
     gap: 16px;
+  }
+
+  .LeftArrow {
+    margin-right: 12px;
   }
 }
