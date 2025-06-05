@@ -2,6 +2,7 @@ import React from "react";
 import "./CyberStoreHome.css";
 import IphoneImage from "./IphoneImage.png";
 import ShopSpotlight from "./ShopSpotlight";
+import Category from "./Category";
 
 export default function CyberStoreHome() {
   return (
@@ -28,7 +29,7 @@ export default function CyberStoreHome() {
         </div>
       </section>
       <ShopSpotlight />
-      <section>Section 3</section>
+      <Category />
       <section>Section 4</section>
       <section>Section 5</section>
       <section>Section 6</section>
