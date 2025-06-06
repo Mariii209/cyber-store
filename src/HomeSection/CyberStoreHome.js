@@ -3,6 +3,7 @@ import "./CyberStoreHome.css";
 import IphoneImage from "./IphoneImage.png";
 import ShopSpotlight from "./ShopSpotlight";
 import Category from "./Category";
+import Products from "./Products";
 
 export default function CyberStoreHome() {
   return (
@@ -30,7 +31,7 @@ export default function CyberStoreHome() {
       </section>
       <ShopSpotlight />
       <Category />
-      <section>Section 4</section>
+      <Products />
       <section>Section 5</section>
       <section>Section 6</section>
     </div>
