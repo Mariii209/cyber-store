@@ -4,6 +4,7 @@ import IphoneImage from "./IphoneImage.png";
 import ShopSpotlight from "./ShopSpotlight";
 import Category from "./Category";
 import Products from "./Products";
+import Banners from "./Banners";
 
 export default function CyberStoreHome() {
   return (
@@ -32,6 +33,7 @@ export default function CyberStoreHome() {
       <ShopSpotlight />
       <Category />
       <Products />
+      <Banners />
     </div>
   );
 }
