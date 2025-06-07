@@ -1,6 +1,6 @@
 .CyberStoreHome .HeroSection {
   background-color: #211c24;
-  padding: 10% 10%;
+  padding: 10% 10% 0;
   overflow: hidden;
   width: 100vw;
   height: 100vh;
@@ -81,5 +81,9 @@
     padding: 0 30px;
     width: 100%;
     height: auto;
+  }
+
+  .CyberStoreHome .HeroSection {
+    padding: 10% 3% 0;
   }
 }

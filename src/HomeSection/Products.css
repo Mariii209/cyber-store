@@ -10,12 +10,16 @@
   display: flex;
   justify-content: flex-start;
   gap: 32px;
+
+  margin-bottom: 32px;
+}
+
+.ProductFilters h4 {
   font-family: Inter;
-  font-size: 18px;
   font-style: normal;
   font-weight: 500;
+  font-size: 18px;
   line-height: 32px;
-  margin-bottom: 32px;
 }
 
 .Products .ProductGrid {
@@ -96,5 +100,14 @@
 @media (max-width: 768px) {
   .Products .ProductGrid {
     grid-template-columns: 1fr;
+  }
+
+  .Products .ProductFilters {
+    gap: 0;
+    justify-content: space-around;
+  }
+
+  .ProductFilters h4 {
+    font-size: 14px;
   }
 }
