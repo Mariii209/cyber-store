@@ -10,7 +10,7 @@ export default function Banners() {
   return (
     <div className="Container-fluid">
       <div className="Banners">
-        <div className="PopularProductCard">
+        <div className="PopularProductCard CradOne">
           <div className="ProductImageWrapper">
             <img
               className="EarphonesImage"
@@ -19,35 +19,39 @@ export default function Banners() {
             />
             <img className="WatchImagee" src={WatchOnTop} alt="Watch" />
           </div>
-          <h3 className="ProductTitle">Popular Products</h3>
-          <p className="ProductDescription">
-            iPad combines a magnificent 10.2-inch Retina display, incredible
-            performance, multitasking and ease of use.
-          </p>
-          <div className="ShopNowWrapper">
-            <a className="ShopNowLink" href="/">
-              Shop Now
-            </a>
+          <div className="ProductContent">
+            <h3 className="ProductTitle">Popular Products</h3>
+            <p className="ProductDescription">
+              iPad combines a magnificent 10.2-inch Retina display, incredible
+              performance, multitasking and ease of use.
+            </p>
+            <div className="ShopNowWrapper">
+              <a className="ShopNowLink" href="/">
+                Shop Now
+              </a>
+            </div>
           </div>
         </div>
 
-        <div className="PopularProductCard">
+        <div className="PopularProductCard CardTwo">
           <div className="ProductImageWrapper">
             <img className="WatchImage" src={IpadPro} alt="Ipad Pro" />
           </div>
-          <h3 className="ProductTitle">Ipad Pro</h3>
-          <p className="ProductDescription">
-            iPad combines a magnificent 10.2-inch Retina display, incredible
-            performance, multitasking and ease of use.
-          </p>
-          <div className="ShopNowWrapper">
-            <a className="ShopNowLink" href="/">
-              Shop Now
-            </a>
+          <div className="ProductContent">
+            <h3 className="ProductTitle">Ipad Pro</h3>
+            <p className="ProductDescription">
+              iPad combines a magnificent 10.2-inch Retina display, incredible
+              performance, multitasking and ease of use.
+            </p>
+            <div className="ShopNowWrapper">
+              <a className="ShopNowLink" href="/">
+                Shop Now
+              </a>
+            </div>
           </div>
         </div>
 
-        <div className="PopularProductCard">
+        <div className="PopularProductCard CardThree">
           <div className="ProductImageWrapper">
             <img
               className="WatchImage"
@@ -55,31 +59,35 @@ export default function Banners() {
               alt="Samsung Galaxy "
             />
           </div>
-          <h3 className="ProductTitle">Samsung Galaxy</h3>
-          <p className="ProductDescription">
-            iPad combines a magnificent 10.2-inch Retina display, incredible
-            performance, multitasking and ease of use.
-          </p>
-          <div className="ShopNowWrapper">
-            <a className="ShopNowLink" href="/">
-              Shop Now
-            </a>
+          <div className="ProductContent">
+            <h3 className="ProductTitle">Samsung Galaxy</h3>
+            <p className="ProductDescription">
+              iPad combines a magnificent 10.2-inch Retina display, incredible
+              performance, multitasking and ease of use.
+            </p>
+            <div className="ShopNowWrapper">
+              <a className="ShopNowLink" href="/">
+                Shop Now
+              </a>
+            </div>
           </div>
         </div>
 
-        <div className="PopularProductCard">
+        <div className="PopularProductCard CardFour">
           <div className="ProductImageWrapper">
             <img className="WatchImage" src={MacbookPro} alt="Macbook Pro" />
           </div>
-          <h3 className="ProductTitle">Macbook Pro</h3>
-          <p className="ProductDescription">
-            iPad combines a magnificent 10.2-inch Retina display, incredible
-            performance, multitasking and ease of use.
-          </p>
-          <div className="ShopNowWrapper">
-            <a className="ShopNowLink" href="/">
-              Shop Now
-            </a>
+          <div className="ProductContent">
+            <h3 className="ProductTitle">Macbook Pro</h3>
+            <p className="ProductDescription">
+              iPad combines a magnificent 10.2-inch Retina display, incredible
+              performance, multitasking and ease of use.
+            </p>
+            <div className="ShopNowWrapper">
+              <a className="ShopNowLink" href="/">
+                Shop Now
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -116,45 +124,70 @@ export default function Banners() {
             aria-label="Slide 4"
           ></button>
         </div>
+
         <div class="carousel-inner">
-          <div class="carousel-item ">
-            <img src={EarphonesBehind} class="d-block w-100" alt="Earphones" />
+          <div class="carousel-item CarouselContainer">
+            <img src={EarphonesBehind} alt="Earphones" />
+            <img src={WatchOnTop} alt="SmartWatch" />
             <div class="carousel-caption ">
-              <h5>Fourth slide label</h5>
-              <p>
-                Some representative placeholder content for the fourth slide.
+              <h3 className="ProductTitle">Popular Products</h3>
+              <p className="ProductDescription">
+                iPad combines a magnificent 10.2-inch Retina display, incredible
+                performance, multitasking and ease of use.
               </p>
+              <div className="ShopNowWrapper">
+                <a className="ShopNowLink" href="/">
+                  Shop Now
+                </a>
+              </div>
             </div>
           </div>
-          <div class="carousel-item active" data-bs-interval="10000">
-            <img src={IpadPro} class="d-block w-100" alt="Ipad Pro" />
-            <div class="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p>
-                Some representative placeholder content for the first slide.
+
+          <div class="carousel-item CarouselContainer">
+            <img src={IpadPro} class="" alt="Ipad Pro" />
+            <div class="carousel-caption ">
+              <h3 className="ProductTitle">Ipad Pro</h3>
+              <p className="ProductDescription">
+                iPad combines a magnificent 10.2-inch Retina display, incredible
+                performance, multitasking and ease of use.
               </p>
+              <div className="ShopNowWrapper">
+                <a className="ShopNowLink" href="/">
+                  Shop Now
+                </a>
+              </div>
             </div>
           </div>
-          <div class="carousel-item" data-bs-interval="2000">
-            <img
-              src={SamsungGalaxy}
-              class="d-block w-100"
-              alt="Samsung Galaxy"
-            />
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>
-                Some representative placeholder content for the second slide.
+
+          <div class="carousel-item CarouselContainer">
+            <img src={SamsungGalaxy} class="" alt="Samsung Galaxy" />
+            <div class="carousel-caption ">
+              <h3 className="ProductTitle">Samsung Galaxy</h3>
+              <p className="ProductDescription">
+                iPad combines a magnificent 10.2-inch Retina display, incredible
+                performance, multitasking and ease of use.
               </p>
+              <div className="ShopNowWrapper">
+                <a className="ShopNowLink" href="/">
+                  Shop Now
+                </a>
+              </div>
             </div>
           </div>
-          <div class="carousel-item">
-            <img src={MacbookPro} class="d-block w-100" alt="Macbook Pro" />
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>
-                Some representative placeholder content for the third slide.
+
+          <div class="carousel-item CarouselContainer">
+            <img src={MacbookPro} class="" alt="Macbook Pro" />
+            <div class="carousel-caption ">
+              <h3 className="ProductTitle">MacBook Pro</h3>
+              <p className="ProductDescription">
+                iPad combines a magnificent 10.2-inch Retina display, incredible
+                performance, multitasking and ease of use.
               </p>
+              <div className="ShopNowWrapper">
+                <a className="ShopNowLink" href="/">
+                  Shop Now
+                </a>
+              </div>
             </div>
           </div>
         </div>
