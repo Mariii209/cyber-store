@@ -32,8 +32,6 @@ export default function CyberStoreHome() {
       <ShopSpotlight />
       <Category />
       <Products />
-      <section>Section 5</section>
-      <section>Section 6</section>
     </div>
   );
 }
