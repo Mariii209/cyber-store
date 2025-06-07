@@ -1,0 +1,81 @@
+.Banners {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 100%;
+}
+
+.Banners .ProductImageWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 360px;
+  height: 420px;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+}
+
+.EarphonesImage {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.WatchImagee {
+  position: absolute;
+  top: 90px;
+  left: 120px;
+}
+
+.Banners .ProductTitle {
+  font-family: Inter;
+  font-size: 33px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 48px;
+  margin: 27px 0 16px;
+}
+
+.Banners .ProductDescription {
+  color: #909090;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  margin-top: 16px;
+}
+
+.Banners .ShopNowWrapper {
+  display: flex;
+  padding: 16px 56px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.BannersCarousel {
+  display: none;
+}
+
+@media (max-width: 992px) {
+  .Banners {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .Banners {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .BannersCarousel {
+    display: block;
+  }
+
+  .Banners {
+    display: none;
+  }
+}

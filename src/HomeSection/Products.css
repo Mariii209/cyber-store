@@ -1,7 +1,6 @@
 .Products {
   display: flex;
   flex-direction: column;
-  height: 100vh;
   width: 100vw;
   padding: 10% 5%;
 }
@@ -10,7 +9,6 @@
   display: flex;
   justify-content: flex-start;
   gap: 32px;
-
   margin-bottom: 32px;
 }
 
