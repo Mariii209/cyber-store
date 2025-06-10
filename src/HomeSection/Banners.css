@@ -60,7 +60,7 @@
 
 .ShopNowWrapper {
   display: flex;
-  width: 50%;
+  width: 65%;
   padding: 16px 56px;
   justify-content: center;
   align-items: center;
@@ -136,7 +136,7 @@
 
   .carousel-caption {
     position: static !important;
-    padding-bottom: 131px !important;
+    padding: 0 50px 131px !important;
   }
 
   .SmartWatch {
@@ -147,5 +147,24 @@
   .Earphones {
     position: relative;
     top: 0;
+  }
+
+  .ProductTitle {
+    font-size: 49px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 48px;
+  }
+
+  .ShopNowWrapper {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .SjquareImage {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
   }
 }
