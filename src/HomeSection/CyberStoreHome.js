@@ -5,6 +5,7 @@ import ShopSpotlight from "./ShopSpotlight";
 import Category from "./Category";
 import Products from "./Products";
 import Banners from "./Banners";
+import DiscountProducts from "./DiscountProducts";
 
 export default function CyberStoreHome() {
   return (
@@ -34,6 +35,7 @@ export default function CyberStoreHome() {
       <Category />
       <Products />
       <Banners />
+      <DiscountProducts />
     </div>
   );
 }

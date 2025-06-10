@@ -118,10 +118,10 @@ export default function Products() {
         <div className="ProductCard">
           <i class="fa-regular fa-heart Heart"></i>
           <img src={GalaxyBuds} alt="Galaxy Buds FE Graphite" />
-          <div className="ProductInfo">
-            <p className="ProductTitle">Galaxy Buds FE Graphite</p>
-            <p className="ProductPrice">$99.99</p>
-          </div>
+
+          <p className="ProductTitle">Galaxy Buds FE Graphite</p>
+          <p className="ProductPrice">$99.99</p>
+
           <div className="BuyButtonWrapper">
             <a className="BuyNowButton" href="/">
               Buy Now
