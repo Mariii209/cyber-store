@@ -114,7 +114,7 @@
 @media (max-width: 768px) {
   .carousel {
     display: block;
-    height: 700px;
+    height: 670px;
   }
 
   .CarouselImages {
@@ -136,6 +136,7 @@
 
   .carousel-caption {
     position: static !important;
+    padding-bottom: 131px !important;
   }
 
   .SmartWatch {

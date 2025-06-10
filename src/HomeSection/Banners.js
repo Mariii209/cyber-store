@@ -148,7 +148,7 @@ export default function Banners() {
             </div>
           </div>
 
-          <div className="carousel-item CarouselContainer">
+          <div className="carousel-item CarouselContainer CardTwo">
             <div className="CarouselImages">
               <img src={IpadPro} class="" alt="Ipad Pro" />
             </div>
@@ -166,7 +166,7 @@ export default function Banners() {
             </div>
           </div>
 
-          <div className="carousel-item CarouselContainer">
+          <div className="carousel-item CarouselContainer CardThree">
             <div className="CarouselImages">
               <img src={SamsungGalaxy} class="" alt="Samsung Galaxy" />
             </div>
@@ -184,11 +184,11 @@ export default function Banners() {
             </div>
           </div>
 
-          <div className="carousel-item CarouselContainer">
+          <div className="carousel-item CarouselContaine CardFour">
             <div className="CarouselImages">
               <img src={MacbookPro} class="" alt="Macbook Pro" />
             </div>
-            <div className="carousel-caption ">
+            <div className="carousel-caption">
               <h3 className="ProductTitle">MacBook Pro</h3>
               <p className="ProductDescription">
                 iPad combines a magnificent 10.2-inch Retina display, incredible
