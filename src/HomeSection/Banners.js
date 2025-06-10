@@ -94,14 +94,14 @@ export default function Banners() {
 
       <div
         id="carouselExampleDark"
-        class="carousel carousel-dark slide BannersCarousel"
+        className="carousel carousel-dark slide BannersCarousel"
       >
-        <div class="carousel-indicators">
+        <div className="carousel-indicators">
           <button
             type="button"
             data-bs-target="#carouselExampleDark"
             data-bs-slide-to="0"
-            class="active"
+            className="active"
             aria-current="true"
             aria-label="Slide 1"
           ></button>
@@ -124,12 +124,19 @@ export default function Banners() {
             aria-label="Slide 4"
           ></button>
         </div>
-
-        <div class="carousel-inner">
-          <div class="carousel-item CarouselContainer">
-            <img src={EarphonesBehind} alt="Earphones" />
-            <img src={WatchOnTop} alt="SmartWatch" />
-            <div class="carousel-caption ">
+        <div className="carousel-inner">
+          <div className="carousel-item CarouselContainer active">
+            <img
+              src={EarphonesBehind}
+              alt="Earphones"
+              style={{ width: "100%", height: "auto" }}
+            />
+            <img
+              src={WatchOnTop}
+              alt="SmartWatch"
+              style={{ width: "100%", height: "auto" }}
+            />
+            <div className="carousel-caption ">
               <h3 className="ProductTitle">Popular Products</h3>
               <p className="ProductDescription">
                 iPad combines a magnificent 10.2-inch Retina display, incredible
@@ -143,9 +150,9 @@ export default function Banners() {
             </div>
           </div>
 
-          <div class="carousel-item CarouselContainer">
+          <div className="carousel-item CarouselContainer">
             <img src={IpadPro} class="" alt="Ipad Pro" />
-            <div class="carousel-caption ">
+            <div className="carousel-caption ">
               <h3 className="ProductTitle">Ipad Pro</h3>
               <p className="ProductDescription">
                 iPad combines a magnificent 10.2-inch Retina display, incredible
@@ -159,9 +166,9 @@ export default function Banners() {
             </div>
           </div>
 
-          <div class="carousel-item CarouselContainer">
+          <div className="carousel-item CarouselContainer">
             <img src={SamsungGalaxy} class="" alt="Samsung Galaxy" />
-            <div class="carousel-caption ">
+            <div className="carousel-caption ">
               <h3 className="ProductTitle">Samsung Galaxy</h3>
               <p className="ProductDescription">
                 iPad combines a magnificent 10.2-inch Retina display, incredible
@@ -175,9 +182,9 @@ export default function Banners() {
             </div>
           </div>
 
-          <div class="carousel-item CarouselContainer">
+          <div className="carousel-item CarouselContainer">
             <img src={MacbookPro} class="" alt="Macbook Pro" />
-            <div class="carousel-caption ">
+            <div className="carousel-caption ">
               <h3 className="ProductTitle">MacBook Pro</h3>
               <p className="ProductDescription">
                 iPad combines a magnificent 10.2-inch Retina display, incredible
