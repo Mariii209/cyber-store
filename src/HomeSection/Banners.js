@@ -189,13 +189,18 @@ export default function Banners() {
               <img src={MacbookPro} class="" alt="Macbook Pro" />
             </div>
             <div className="carousel-caption">
-              <h3 className="ProductTitle">MacBook Pro</h3>
+              <h3 className="ProductTitle" style={{ color: "white" }}>
+                MacBook Pro
+              </h3>
               <p className="ProductDescription">
                 iPad combines a magnificent 10.2-inch Retina display, incredible
                 performance, multitasking and ease of use.
               </p>
-              <div className="ShopNowWrapper">
-                <a className="ShopNowLink" href="/">
+              <div
+                className="ShopNowWrapper"
+                style={{ border: "1px solid white" }}
+              >
+                <a className="ShopNowLink" style={{ color: "white" }} href="/">
                   Shop Now
                 </a>
               </div>
