@@ -125,17 +125,15 @@ export default function Banners() {
           ></button>
         </div>
         <div className="carousel-inner">
-          <div className="carousel-item CarouselContainer active">
-            <img
-              src={EarphonesBehind}
-              alt="Earphones"
-              style={{ width: "100%", height: "auto" }}
-            />
-            <img
-              src={WatchOnTop}
-              alt="SmartWatch"
-              style={{ width: "100%", height: "auto" }}
-            />
+          <div className="carousel-item CarouselContainer active ">
+            <div className="CarouselImages">
+              <img
+                src={EarphonesBehind}
+                alt="Earphones"
+                className="Earphones"
+              />
+              <img src={WatchOnTop} alt="SmartWatch" className="SmartWatch" />
+            </div>
             <div className="carousel-caption ">
               <h3 className="ProductTitle">Popular Products</h3>
               <p className="ProductDescription">
@@ -151,7 +149,9 @@ export default function Banners() {
           </div>
 
           <div className="carousel-item CarouselContainer">
-            <img src={IpadPro} class="" alt="Ipad Pro" />
+            <div className="CarouselImages">
+              <img src={IpadPro} class="" alt="Ipad Pro" />
+            </div>
             <div className="carousel-caption ">
               <h3 className="ProductTitle">Ipad Pro</h3>
               <p className="ProductDescription">
@@ -167,7 +167,9 @@ export default function Banners() {
           </div>
 
           <div className="carousel-item CarouselContainer">
-            <img src={SamsungGalaxy} class="" alt="Samsung Galaxy" />
+            <div className="CarouselImages">
+              <img src={SamsungGalaxy} class="" alt="Samsung Galaxy" />
+            </div>
             <div className="carousel-caption ">
               <h3 className="ProductTitle">Samsung Galaxy</h3>
               <p className="ProductDescription">
@@ -183,7 +185,9 @@ export default function Banners() {
           </div>
 
           <div className="carousel-item CarouselContainer">
-            <img src={MacbookPro} class="" alt="Macbook Pro" />
+            <div className="CarouselImages">
+              <img src={MacbookPro} class="" alt="Macbook Pro" />
+            </div>
             <div className="carousel-caption ">
               <h3 className="ProductTitle">MacBook Pro</h3>
               <p className="ProductDescription">
