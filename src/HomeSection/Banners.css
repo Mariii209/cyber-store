@@ -100,7 +100,7 @@
   color: white;
 }
 
-.BannersCarousel {
+.carousel {
   display: none;
 }
 
@@ -112,25 +112,36 @@
 }
 
 @media (max-width: 768px) {
-  .Banners {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
+  .carousel {
+    display: block;
+    height: 700px;
+    padding: 5%;
   }
 
-  .BannersCarousel {
-    display: block;
+  .CarouselImages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    position: relative;
   }
 
   .Banners {
     display: none;
   }
 
-  .CarouselContainer {
-    height: 100vh;
-  }
-
   .ShopNowWrapper {
     width: 100%;
-    margin-bottom: 48px;
+    margin-bottom: 0;
+  }
+
+  .carousel-caption {
+    position: static !important;
+  }
+
+  .Watchtop {
+    position: absolute;
+    bottom: 52px;
+    left: 106px;
   }
 }
