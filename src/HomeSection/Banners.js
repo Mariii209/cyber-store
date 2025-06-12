@@ -8,8 +8,8 @@ import MacbookPro from "./MacbookPro.png";
 
 export default function Banners() {
   return (
-    <div className="Container-fluid">
-      <div className="Banners">
+    <div className=" Banners Container-fluid">
+      <div className="BannersSection">
         <div className="PopularProductCard CradOne">
           <div className="ProductImageWrapper">
             <img
