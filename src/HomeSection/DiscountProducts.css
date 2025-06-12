@@ -30,6 +30,6 @@
 
 @media (max-width: 768px) {
   .DiscountContainer {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
