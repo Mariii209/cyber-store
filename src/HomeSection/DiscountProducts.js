@@ -34,8 +34,8 @@ export default function DiscountProducts() {
           <i class="fa-regular fa-heart Heart"></i>
           <img
             src={AppleAirPods}
+            className="AirPodsMax"
             alt="Blackmagic Pocket Cinema Camera 6k"
-            style={{ width: "160px", height: "160px" }}
           />
           <p className="ProductTitle">Blackmagic Pocket Cinema Camera 6k</p>
           <p className="ProductPrice">$2535</p>
