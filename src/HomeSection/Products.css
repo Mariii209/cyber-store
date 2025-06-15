@@ -12,7 +12,7 @@
   margin-bottom: 32px;
 }
 
-.ProductFilters h4 {
+.Products .ProductFilters h4 {
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
@@ -37,7 +37,7 @@
   position: relative;
 }
 
-.ProductCard .Heart {
+.Products .ProductCard .Heart {
   color: #909090c4;
   position: absolute;
   right: 13px;
@@ -46,7 +46,7 @@
   margin-bottom: 16px;
 }
 
-.ProductCard .ProductTitle {
+.Products .ProductCard .ProductTitle {
   text-align: center;
   font-family: Inter;
   font-size: 16px;
@@ -57,7 +57,7 @@
   margin: 16px 0;
 }
 
-.ProductCard .ProductPrice {
+.Products .ProductCard .ProductPrice {
   text-align: center;
   font-family: Inter;
   font-size: 24px;
@@ -67,7 +67,7 @@
   letter-spacing: 0.72px;
 }
 
-.ProductCard .BuyNowButton {
+.Products .ProductCard .BuyNowButton {
   display: flex;
   padding: 12px 55px;
   justify-content: center;
@@ -85,7 +85,7 @@
   line-height: 24px;
 }
 
-.ProductCard .AirPodsMax {
+.Products .ProductCard .AirPodsMax {
   width: 160px;
   height: 160px;
 }
@@ -107,16 +107,16 @@
     width: 104px;
   }
 
-  .AirPodsMax {
+  .Products .AirPodsMax {
     height: 104px !important;
     width: 104px !important;
   }
 
-  .ProductFilters h4 {
+  .Products .ProductFilters h4 {
     font-size: 14px;
   }
 
-  .ProductCard .BuyNowButton {
+  .Products .ProductCard .BuyNowButton {
     padding: 12px 34px;
   }
 }
