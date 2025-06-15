@@ -6,6 +6,7 @@ import Category from "./Category";
 import Products from "./Products";
 import Banners from "./Banners";
 import DiscountProducts from "./DiscountProducts";
+import BannerTwo from "./BannerTwo";
 
 export default function CyberStoreHome() {
   return (
@@ -36,6 +37,7 @@ export default function CyberStoreHome() {
       <Products />
       <Banners />
       <DiscountProducts />
+      <BannerTwo />
     </div>
   );
 }
