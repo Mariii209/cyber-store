@@ -7,7 +7,7 @@ import AppleAirPods from "./AppleAirPods.png";
 
 export default function ShopSpotlight() {
   return (
-    <div className="ShopSpotlight container-fluid">
+    <div className="ShopSpotlight ">
       <section className="FeaturedProductsSection">
         <div className="ProductCard PlayStation">
           <div className="ProductImage">
