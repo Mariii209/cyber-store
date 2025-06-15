@@ -1,3 +1,57 @@
 .Footer {
   background: black;
+  padding: 10%;
+}
+
+.Footer .FooterContent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Footer .FooterAbout {
+  max-width: 350px;
+  width: 100%;
+}
+
+.Footer .FooterAbout p {
+  color: #cfcfcf;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 170.5%;
+  margin-top: 24px;
+}
+
+.Footer h4 {
+  color: white;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+}
+
+.Footer ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.Footer li {
+  color: #cfcfcf;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.Footer .FooterSocial {
+  margin-top: 24px;
+}
+
+.Footer .FooterSocial a {
+  color: white;
+}
+
+.Footer .FooterSocial a:not(:last-child) {
+  margin-right: 40px;
 }
