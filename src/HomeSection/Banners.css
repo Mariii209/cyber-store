@@ -1,10 +1,10 @@
-.BannersSection {
+.Banners .BannersSection {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   height: 100%;
 }
 
-.ProductImageWrapper {
+.Banners .ProductImageWrapper {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,23 +15,23 @@
   position: relative;
 }
 
-.PopularProductCard {
+.Banners .PopularProductCard {
   padding: 8% 6%;
 }
 
-.EarphonesImage {
+.Banners .EarphonesImage {
   position: relative;
   top: 0;
   left: 0;
 }
 
-.WatchImagee {
+.Banners .WatchImagee {
   position: absolute;
   top: 90px;
   left: 120px;
 }
 
-.BannersSection .ProductTitle {
+.Banners .BannersSection .ProductTitle {
   font-family: Inter;
   font-size: 33px;
   font-style: normal;
@@ -40,7 +40,7 @@
   margin: 27px 0 16px;
 }
 
-.ProductDescription {
+.Banners .ProductDescription {
   color: #909090;
   font-family: Inter;
   font-size: 14px;
@@ -50,7 +50,7 @@
   margin-top: 16px;
 }
 
-.ShopNowWrapper {
+.Banners .ShopNowWrapper {
   display: flex;
   padding: 16px 56px;
   justify-content: center;
@@ -58,7 +58,7 @@
   gap: 8px;
 }
 
-.ShopNowWrapper {
+.Banners .ShopNowWrapper {
   display: flex;
   width: 65%;
   padding: 16px 56px;
@@ -69,7 +69,7 @@
   border: 1px solid var(--Main-Black, #000);
 }
 
-.ShopNowLink {
+.Banners .ShopNowLink {
   color: black;
   text-decoration: none;
   font-family: Inter;
@@ -79,45 +79,45 @@
   line-height: 24px;
 }
 
-.ProductContent {
+.Banners .ProductContent {
   margin-left: 20px;
 }
 
-.CradOne {
+.Banners .CradOne {
   background-color: white;
 }
 
-.CardTwo {
+.Banners .CardTwo {
   background-color: #f9f9f9;
 }
 
-.CardThree {
+.Banners .CardThree {
   background-color: #eaeaea;
 }
 
-.CardFour {
+.Banners .CardFour {
   background-color: #2c2c2c;
   color: white;
 }
 
-.carousel {
+.Banners .carousel {
   display: none;
 }
 
 @media (max-width: 992px) {
-  .BannersSection {
+  .Banners .BannersSection {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (max-width: 768px) {
-  .carousel {
+  .Banners .carousel {
     display: block;
     height: 670px;
   }
 
-  .CarouselImages {
+  .Banners .CarouselImages {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -125,44 +125,44 @@
     position: relative !important;
   }
 
-  .BannersSection {
+  .Banners .BannersSection {
     display: none;
   }
 
-  .ShopNowWrapper {
+  .Banners .ShopNowWrapper {
     width: 100%;
     margin-bottom: 0;
   }
 
-  .carousel-caption {
+  .Banners .carousel-caption {
     position: static !important;
     padding: 0 50px 100px !important;
   }
 
-  .SmartWatch {
+  .Banners .SmartWatch {
     position: absolute;
     top: 120px;
   }
 
-  .Earphones {
+  .Banners .Earphones {
     position: relative;
     top: 0;
   }
 
-  .ProductTitle {
+  .Banners .ProductTitle {
     font-size: 30px;
     font-style: normal;
     font-weight: 300;
     line-height: 48px;
   }
 
-  .ShopNowWrapper {
+  .Banners .ShopNowWrapper {
     width: 50%;
     margin: 0 auto;
     padding: 13px 25px;
   }
 
-  .carousel-indicators {
+  .Banners .carousel-indicators {
     bottom: -20px;
   }
 }
