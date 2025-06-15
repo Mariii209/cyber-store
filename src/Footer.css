@@ -55,3 +55,26 @@
 .Footer .FooterSocial a:not(:last-child) {
   margin-right: 40px;
 }
+
+@media (max-width: 875px) {
+  .Footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 32px;
+  }
+
+  .Footer .FooterContent {
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+  }
+
+  .Footer .FooterSocial a {
+    font-size: 30px;
+  }
+  .Footer .FooterSocial {
+    margin-top: 0;
+  }
+}
