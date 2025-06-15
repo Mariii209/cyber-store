@@ -6,31 +6,87 @@
   margin-top: 30px;
 }
 
-.DiscountContainer {
+.DiscountProducts .DiscountContainer {
   margin: 80px 0 32px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 16px;
 }
 
-.DiscountInfo {
+.DiscountProducts .DiscountInfo {
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
   line-height: 32px;
 }
 
-.ProductCard {
-  background-color: #f6f6f6;
+.DiscountProducts .ProductCard {
   border-radius: 9px;
-  padding: 50px 0 !important;
   display: flex;
+  padding: 50px 16px;
   flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
   gap: 16px;
+  background-color: #f6f6f6;
+  position: relative;
+}
+
+.DiscountProducts .ProductCard .Heart {
+  color: #909090c4;
+  position: absolute;
+  right: 13px;
+  top: 17px;
+  font-size: 27px;
+  margin-bottom: 16px;
+}
+
+.DiscountProducts img {
+  height: 160px;
+  width: 160px;
+}
+
+.DiscountProducts .ProductCard .ProductTitle {
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  height: 72px;
+  line-height: 24px;
+  margin: 16px 0;
+}
+
+.DiscountProducts .ProductCard .ProductPrice {
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.72px;
+}
+
+.DiscountProducts .ProductCard .BuyNowButton {
+  display: flex;
+  padding: 12px 55px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  background-color: black;
+  text-decoration: none;
+  color: white;
+  border-radius: 8px;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
 }
 
 @media (max-width: 992px) {
-  .DiscountContainer {
+  .DiscountProducts .DiscountContainer {
     grid-template-columns: repeat(2, 1fr);
   }
 }
@@ -41,7 +97,7 @@
     width: 104px;
   }
 
-  .DiscountContainer {
+  .DiscountProducts .DiscountContainer {
     margin: 38px 0 32px;
   }
 }
