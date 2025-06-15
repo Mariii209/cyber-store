@@ -100,4 +100,7 @@
   .DiscountProducts .DiscountContainer {
     margin: 38px 0 32px;
   }
+  .DiscountProducts .ProductCard .BuyNowButton {
+    padding: 12px 34px;
+  }
 }
