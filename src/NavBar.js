@@ -1,12 +1,15 @@
 import React from "react";
+import "./NavBar.css";
+import CyberNavLogo from "./CyberNavLogo.png";
 
 export default function NavBar() {
   return (
-    <div className="Navbar">
-      <div className="NarbarContainer">
-        <img src="" alt="" />
+    <div className="NavBar">
+      <div className="NavBarContainer">
+        <img src={CyberNavLogo} alt="" />
         <form>
-          <input type="search" />
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="search" placeholder="Search" />
         </form>
         <ul>
           <li>Home</li>
@@ -14,17 +17,18 @@ export default function NavBar() {
           <li>Contact Us</li>
           <li>Blog</li>
         </ul>
-        <div>
-          <a href="">
+        <div className="IconNav">
+          <a href="/">
             <i class="fa-regular fa-heart"></i>
           </a>
-          <a href="">
+          <a href="/">
             <i class="fa-solid fa-cart-shopping"></i>
           </a>
-          <a href="">
+          <a href="/">
             <i class="fa-regular fa-user"></i>
           </a>
         </div>
+        <i class="fa-solid fa-bars NavbarIcon"></i>
       </div>
     </div>
   );
