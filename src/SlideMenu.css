@@ -15,6 +15,54 @@
   padding: 2rem;
 }
 
+.SlideInfo.open {
+  right: 0;
+}
+
+.SlideMenu .MobileMenuIcons {
+  display: flex;
+  justify-content: end;
+  gap: 12px;
+}
+
+.SlideMenu .MobileMenuIcons a {
+  color: black;
+}
+
+.SlideMenu .MobileMenuSearch {
+  position: relative;
+  margin-top: 15px;
+}
+
+.SlideMenu .MobileMenuSearch i {
+  position: absolute;
+  top: 34%;
+  left: 10px;
+  opacity: 0.6;
+  font-size: 15px;
+}
+
+.SlideMenu .MobileMenuSearch input {
+  width: 100%;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  height: 43px;
+  padding-left: 32px;
+}
+
+.SlideMenu .MobileMenuLinks {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  margin-top: 20px;
+}
+
+.SlideMenu .MobileMenuLinks li:not(:last-child) {
+  margin-bottom: 20px;
+}
+
 @media (max-width: 875px) {
   .SlideMenu .NavbarIcon {
     display: block;

@@ -10,17 +10,7 @@ export default function SlideMenu() {
     <div className="SlideMenu">
       <i className="fa-solid fa-bars NavbarIcon" onClick={toggleMenu}></i>
       <div className={`SlideInfo ${menuOpen ? "open" : ""}`}>
-        <form>
-          <i className="fa-solid fa-magnifying-glass"></i>
-          <input type="search" placeholder="Search" />
-        </form>
-        <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Contact Us</li>
-          <li>Blog</li>
-        </ul>
-        <div className="IconNav">
+        <div className="MobileMenuIcons">
           <a href="/">
             <i className="fa-regular fa-heart"></i>
           </a>
@@ -31,6 +21,16 @@ export default function SlideMenu() {
             <i className="fa-regular fa-user"></i>
           </a>
         </div>
+        <form className="MobileMenuSearch">
+          <i className="fa-solid fa-magnifying-glass"></i>
+          <input type="search" placeholder="Search" />
+        </form>
+        <ul className="MobileMenuLinks">
+          <li>Home</li>
+          <li>About</li>
+          <li>Contact Us</li>
+          <li>Blog</li>
+        </ul>
       </div>
     </div>
   );

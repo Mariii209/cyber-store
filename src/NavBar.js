@@ -20,14 +20,14 @@ export default function NavBar() {
         </ul>
 
         <div className="IconNav">
-          <a href="/">
-            <i className="fa-regular fa-heart FavoriteIcon"></i>
+          <a href="/" className="NavIconLink">
+            <i className="fa-regular fa-heart FavoriteIcon NavIcon"></i>
           </a>
-          <a href="/">
-            <i className="fa-solid fa-cart-shopping CartIcon"></i>
+          <a href="/" className="NavIconLink">
+            <i className="fa-solid fa-cart-shopping CartIcon NavIcon"></i>
           </a>
-          <a href="/">
-            <i className="fa-regular fa-user UserIcon"></i>
+          <a href="/" className="NavIconLink">
+            <i className="fa-regular fa-user UserIcon NavIcon"></i>
           </a>
         </div>
         <SlideMenu />
