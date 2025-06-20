@@ -11,7 +11,7 @@ export default function SlideMenu() {
       <i className="fa-solid fa-bars NavbarIcon" onClick={toggleMenu}></i>
       <div className={`SlideInfo ${menuOpen ? "open" : ""}`}>
         <div className="MobileMenuTopBar">
-          <i class="fa-solid fa-xmark Xmark"></i>
+          <i class="fa-solid fa-xmark Xmark" onClick={toggleMenu}></i>
           <div className="MobileMenuIcons">
             <a href="/">
               <i className="fa-regular fa-heart"></i>
