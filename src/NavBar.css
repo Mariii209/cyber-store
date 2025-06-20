@@ -78,4 +78,11 @@
   .NavIconLink {
     display: none;
   }
+  .NavBar .NavBarContainer {
+    height: 77px;
+  }
+
+  .NavBar {
+    height: 77px;
+  }
 }

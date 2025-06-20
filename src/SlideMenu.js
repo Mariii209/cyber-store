@@ -6,12 +6,19 @@ export default function SlideMenu() {
   function toggleMenu() {
     setMenuOpen(!menuOpen);
   }
+
+  function closeMenu() {
+    setMenuOpen(false);
+  }
+
   return (
     <div className="SlideMenu">
       <i className="fa-solid fa-bars NavbarIcon" onClick={toggleMenu}></i>
       <div className={`SlideInfo ${menuOpen ? "open" : ""}`}>
         <div className="MobileMenuTopBar">
           <i class="fa-solid fa-xmark Xmark" onClick={toggleMenu}></i>
+          {menuOpen && <div className="MenuBackdrop" onClick={closeMenu}></div>}
+
           <div className="MobileMenuIcons">
             <a href="/">
               <i className="fa-regular fa-heart"></i>

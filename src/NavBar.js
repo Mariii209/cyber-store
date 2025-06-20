@@ -9,7 +9,7 @@ export default function NavBar() {
       <div className="NavBarContainer">
         <img src={CyberNavLogo} alt="" />
         <form className="NavBarSearch">
-          <i class="fa-solid fa-magnifying-glass SearchIcon"></i>
+          <i className="fa-solid fa-magnifying-glass SearchIcon"></i>
           <input type="search" className="SearchInput" placeholder="Search" />
         </form>
         <ul className="NavLinks">
