@@ -10,16 +10,19 @@ export default function SlideMenu() {
     <div className="SlideMenu">
       <i className="fa-solid fa-bars NavbarIcon" onClick={toggleMenu}></i>
       <div className={`SlideInfo ${menuOpen ? "open" : ""}`}>
-        <div className="MobileMenuIcons">
-          <a href="/">
-            <i className="fa-regular fa-heart"></i>
-          </a>
-          <a href="/">
-            <i className="fa-solid fa-cart-shopping"></i>
-          </a>
-          <a href="/">
-            <i className="fa-regular fa-user"></i>
-          </a>
+        <div className="MobileMenuTopBar">
+          <i class="fa-solid fa-xmark Xmark"></i>
+          <div className="MobileMenuIcons">
+            <a href="/">
+              <i className="fa-regular fa-heart"></i>
+            </a>
+            <a href="/">
+              <i className="fa-solid fa-cart-shopping"></i>
+            </a>
+            <a href="/">
+              <i className="fa-regular fa-user"></i>
+            </a>
+          </div>
         </div>
         <form className="MobileMenuSearch">
           <i className="fa-solid fa-magnifying-glass"></i>
