@@ -1,16 +1,18 @@
 import React from "react";
 import "./CyberStoreHome.css";
-import IphoneImage from "./IphoneImage.png";
 import ShopSpotlight from "./ShopSpotlight";
 import Category from "./Category";
 import Products from "./Products";
 import Banners from "./Banners";
 import DiscountProducts from "./DiscountProducts";
 import BannerTwo from "./BannerTwo";
+import Hero from "./Hero.png";
+import NavBar from "../NavBar";
 
 export default function CyberStoreHome() {
   return (
     <div className="CyberStoreHome">
+      <NavBar />
       <section className="HeroSection container-fluid ">
         <div className="row align-items-center">
           <div className="col-lg-8 HeroTextContent ">
@@ -28,7 +30,7 @@ export default function CyberStoreHome() {
             </div>
           </div>
           <div className="col-lg-4  HeroImageContainer">
-            <img src={IphoneImage} alt="" className=" HeroImage" />
+            <img src={Hero} alt="" className=" HeroImage" />
           </div>
         </div>
       </section>
