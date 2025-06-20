@@ -1,34 +1,36 @@
 import React from "react";
 import "./NavBar.css";
 import CyberNavLogo from "./CyberNavLogo.png";
+import SlideMenu from "./SlideMenu";
 
 export default function NavBar() {
   return (
     <div className="NavBar">
       <div className="NavBarContainer">
         <img src={CyberNavLogo} alt="" />
-        <form>
-          <i class="fa-solid fa-magnifying-glass"></i>
-          <input type="search" placeholder="Search" />
+        <form className="NavBarSearch">
+          <i class="fa-solid fa-magnifying-glass SearchIcon"></i>
+          <input type="search" className="SearchInput" placeholder="Search" />
         </form>
-        <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Contact Us</li>
-          <li>Blog</li>
+        <ul className="NavLinks">
+          <li className="NavItem">Home</li>
+          <li className="NavItem">About</li>
+          <li className="NavItem">Contact Us</li>
+          <li className="NavItem">Blog</li>
         </ul>
+
         <div className="IconNav">
           <a href="/">
-            <i class="fa-regular fa-heart"></i>
+            <i className="fa-regular fa-heart FavoriteIcon"></i>
           </a>
           <a href="/">
-            <i class="fa-solid fa-cart-shopping"></i>
+            <i className="fa-solid fa-cart-shopping CartIcon"></i>
           </a>
           <a href="/">
-            <i class="fa-regular fa-user"></i>
+            <i className="fa-regular fa-user UserIcon"></i>
           </a>
         </div>
-        <i class="fa-solid fa-bars NavbarIcon"></i>
+        <SlideMenu />
       </div>
     </div>
   );

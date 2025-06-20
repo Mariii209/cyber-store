@@ -17,20 +17,20 @@
   padding: 0 4%;
 }
 
-.NavBar form {
+.NavBar .NavBarSearch {
   position: relative;
   max-width: 372px;
   width: 100%;
 }
 
-.NavBar form i {
+.NavBar .NavBarSearch .SearchIcon {
   position: absolute;
   left: 10px;
   top: 37%;
   opacity: 0.6;
 }
 
-.NavBar form input {
+.NavBar .NavBarSearch .SearchInput {
   border: none;
   background: #f5f5f5;
   width: 100%;
@@ -41,7 +41,7 @@
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
-.NavBar ul {
+.NavBar .NavLinks {
   list-style: none;
   display: flex;
   gap: 52px;
@@ -49,7 +49,7 @@
   margin: 0;
 }
 
-.NavBar ul li {
+.NavBar .NavLinks .NavItem {
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -66,25 +66,16 @@
   color: black;
 }
 
-.NavBar .NavbarIcon {
-  display: none;
-}
-
 @media (max-width: 1083px) {
-  .NavBar form {
+  .NavBar .NavBarSearch {
     max-width: 239px;
   }
 }
 
 @media (max-width: 875px) {
-  .NavBar form,
-  li,
+  .NavBar .NavBarSearch,
+  .NavItem,
   a {
     display: none;
-  }
-
-  .NavBar .NavbarIcon {
-    display: block;
-    font-size: 30px;
   }
 }
