@@ -1,12 +1,11 @@
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
-import CyberStoreHome from "./HomeSection/CyberStoreHome";
-import Footer from "./Footer";
+import Home from "./HomeSection/Home";
 
 function App() {
   return (
     <div className="App">
-      <CyberStoreHome />
-      <Footer />
+      <Home />
     </div>
   );
 }
