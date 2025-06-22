@@ -11,37 +11,46 @@ export default function SlideMenu() {
     setMenuOpen(false);
   }
 
+  function handleSlideClick(event) {
+    event.stopPropagation();
+  }
+
   return (
     <div className="SlideMenu">
       <i className="fa-solid fa-bars NavbarIcon" onClick={toggleMenu}></i>
-      <div className={`SlideInfo ${menuOpen ? "open" : ""}`}>
-        <div className="MobileMenuTopBar">
-          <i class="fa-solid fa-xmark Xmark" onClick={toggleMenu}></i>
-          {menuOpen && <div className="MenuBackdrop" onClick={closeMenu}></div>}
-
-          <div className="MobileMenuIcons">
-            <a href="/">
-              <i className="fa-regular fa-heart"></i>
-            </a>
-            <a href="/">
-              <i className="fa-solid fa-cart-shopping"></i>
-            </a>
-            <a href="/">
-              <i className="fa-regular fa-user"></i>
-            </a>
+      {menuOpen && (
+        <div className="MenuBackdrop" onClick={closeMenu}>
+          <div
+            className={`SlideInfo ${menuOpen ? "open" : ""}`}
+            onClick={handleSlideClick}
+          >
+            <div className="MobileMenuTopBar">
+              <i class="fa-solid fa-xmark Xmark" onClick={toggleMenu}></i>
+              <div className="MobileMenuIcons">
+                <a href="/">
+                  <i className="fa-regular fa-heart"></i>
+                </a>
+                <a href="/">
+                  <i className="fa-solid fa-cart-shopping"></i>
+                </a>
+                <a href="/">
+                  <i className="fa-regular fa-user"></i>
+                </a>
+              </div>
+            </div>
+            <form className="MobileMenuSearch">
+              <i className="fa-solid fa-magnifying-glass"></i>
+              <input type="search" placeholder="Search" />
+            </form>
+            <ul className="MobileMenuLinks">
+              <li>Home</li>
+              <li>About</li>
+              <li>Contact Us</li>
+              <li>Blog</li>
+            </ul>
           </div>
         </div>
-        <form className="MobileMenuSearch">
-          <i className="fa-solid fa-magnifying-glass"></i>
-          <input type="search" placeholder="Search" />
-        </form>
-        <ul className="MobileMenuLinks">
-          <li>Home</li>
-          <li>About</li>
-          <li>Contact Us</li>
-          <li>Blog</li>
-        </ul>
-      </div>
+      )}
     </div>
   );
 }
