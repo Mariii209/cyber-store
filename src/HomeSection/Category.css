@@ -40,6 +40,8 @@
   background-color: #ededed;
   padding: 24px 0;
   border-radius: 15px;
+  text-decoration: none;
+  color: black;
 }
 
 .Category .CategoryItem p {

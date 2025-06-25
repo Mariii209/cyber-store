@@ -4,9 +4,13 @@ import Home from "./HomeSection/Home";
 
 function App() {
   return (
-    <div className="App">
-      <Home />
-    </div>
+    <Router>
+      <div className="App">
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 

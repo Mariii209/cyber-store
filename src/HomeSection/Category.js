@@ -1,5 +1,6 @@
 import React from "react";
 import "./Category.css";
+import { Link } from "react-router-dom";
 
 export default function Category() {
   return (
@@ -12,12 +13,12 @@ export default function Category() {
         </div>
       </div>
       <div className="CategoryList">
-        <div className="CategoryItem">
+        <Link to="/" className="CategoryItem">
           <div>
             <i class="fa-solid fa-mobile-screen-button CategoryIcon"></i>
           </div>
           <p>Phones</p>
-        </div>
+        </Link>
         <div className="CategoryItem">
           <div>
             <i class="fa-solid fa-tv CategoryIcon"></i>
