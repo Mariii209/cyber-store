@@ -2,6 +2,7 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import NavBar from "../../NavBar";
 import Brand from "./Brand";
+import BatteryCapacity from "./BatteryCapacity";
 
 export default function ProductPagePhone() {
   const { category } = useParams();
@@ -15,6 +16,7 @@ export default function ProductPagePhone() {
       </ul>
       <dic className="Content">
         <Brand />
+        <BatteryCapacity />
       </dic>
     </div>
   );
