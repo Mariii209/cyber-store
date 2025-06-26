@@ -15,6 +15,7 @@
   height: 100px;
   background-color: white;
   padding: 0 4%;
+  border-bottom: 1px solid black;
 }
 
 .NavBar .NavBarSearch {
