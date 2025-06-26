@@ -9,7 +9,7 @@ export default function Brand() {
       </div>
       <hr />
       <form>
-        <input type="search" name="" id="" />
+        <input type="search" placeholder="Search brand..." />
       </form>
       <div className="BrandList">
         <ul>
