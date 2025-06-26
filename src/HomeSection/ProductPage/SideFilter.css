@@ -1,0 +1,21 @@
+.SideFilter {
+  width: 300px;
+}
+
+.SideFilter .Title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.SideFilter h3 {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.54px;
+}
+
+.SideFilter hr {
+  color: gray;
+}

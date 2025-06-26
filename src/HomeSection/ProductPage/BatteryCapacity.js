@@ -3,8 +3,10 @@ import React from "react";
 export default function BatteryCapacity() {
   return (
     <div className="BatteryCapacity">
-      <h3>Battery Capacity</h3>
-      <i className="fa-solid fa-chevron-up"></i>
+      <div className="Title BatteryCapacityTitle">
+        <h3>Battery Capacity</h3>
+        <i className="fa-solid fa-chevron-up"></i>
+      </div>
       <hr />
       <form>
         <input type="search" name="" id="" placeholder="Search capacity..." />

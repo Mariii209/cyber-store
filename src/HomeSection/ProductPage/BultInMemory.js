@@ -3,8 +3,10 @@ import React from "react";
 export default function BuiltInMemory() {
   return (
     <div className="BuiltInMemory">
-      <h3>Built-in Memory</h3>
-      <i className="fa-solid fa-chevron-up"></i>
+      <div className="Title BuiltInMemoryTitle">
+        <h3>Built-in Memory</h3>
+        <i className="fa-solid fa-chevron-up"></i>
+      </div>
       <hr />
       <form>
         <input type="search" placeholder="Search memory..." />

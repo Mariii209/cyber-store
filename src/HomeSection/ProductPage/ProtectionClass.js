@@ -3,8 +3,10 @@ import React from "react";
 export default function ProtectionClass() {
   return (
     <div className="ProtectionClass">
-      <h3>Protection Class</h3>
-      <i className="fa-solid fa-chevron-up"></i>
+      <div className="Title ProtectionClassTitle">
+        <h3>Protection Class</h3>
+        <i className="fa-solid fa-chevron-up"></i>
+      </div>
       <hr />
       <form>
         <input type="search" name="" id="" placeholder="Search protection..." />

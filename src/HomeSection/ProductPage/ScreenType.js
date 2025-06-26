@@ -3,8 +3,10 @@ import React from "react";
 export default function ScreenType() {
   return (
     <div className="ScreenType">
-      <h3>Screen Type</h3>
-      <i className="fa-solid fa-chevron-up"></i>
+      <div className="Title ScreenTypeTitle">
+        <h3>Screen Type</h3>
+        <i className="fa-solid fa-chevron-up"></i>
+      </div>
       <hr />
       <form>
         <input

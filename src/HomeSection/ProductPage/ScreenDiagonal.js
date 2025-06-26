@@ -3,8 +3,10 @@ import React from "react";
 export default function ScreenDiagonal() {
   return (
     <div className="ScreenDiagonal">
-      <h3>Screen Diagonal</h3>
-      <i className="fa-solid fa-chevron-up"></i>
+      <div className="Title ScreenDiagonalTitle">
+        <h3>Screen Diagonal</h3>
+        <i className="fa-solid fa-chevron-up"></i>
+      </div>
       <hr />
       <form>
         <input type="search" name="" id="" placeholder="Search diagonal..." />

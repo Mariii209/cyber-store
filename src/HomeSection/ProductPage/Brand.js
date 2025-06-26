@@ -3,8 +3,10 @@ import React from "react";
 export default function Brand() {
   return (
     <div className="Brand">
-      <h3>Brand</h3>
-      <i class="fa-solid fa-chevron-up"></i>
+      <div className="Title BrandTitle">
+        <h3>Brand</h3>
+        <i class="fa-solid fa-chevron-up"></i>
+      </div>
       <hr />
       <form>
         <input type="search" name="" id="" />
