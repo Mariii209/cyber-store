@@ -8,6 +8,7 @@ import DiscountProducts from "./DiscountProducts";
 import BannerTwo from "./BannerTwo";
 import Hero from "./Hero.png";
 import NavBar from "../NavBar";
+import Footer from "../Footer";
 
 export default function CyberStoreHome() {
   return (
@@ -40,6 +41,7 @@ export default function CyberStoreHome() {
       <Banners />
       <DiscountProducts />
       <BannerTwo />
+      <Footer />
     </div>
   );
 }

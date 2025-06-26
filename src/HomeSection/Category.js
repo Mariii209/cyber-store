@@ -13,7 +13,7 @@ export default function Category() {
         </div>
       </div>
       <div className="CategoryList">
-        <Link to="/" className="CategoryItem">
+        <Link to="/products/Phones" className="CategoryItem">
           <div>
             <i class="fa-solid fa-mobile-screen-button CategoryIcon"></i>
           </div>
