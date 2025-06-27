@@ -5,6 +5,7 @@ import SideFilter from "./SideFilter";
 import "./ProductPagePhone.css";
 import Phones from "./Phones";
 import Footer from "../../Footer";
+import Filters from "./Filters";
 
 export default function ProductPagePhone() {
   const { category } = useParams();
@@ -19,6 +20,7 @@ export default function ProductPagePhone() {
           <i className="fa-solid fa-chevron-right"></i>
           <li>{category}</li>
         </ul>
+        <Filters />
         <div className="Content">
           <SideFilter />
           <Phones />

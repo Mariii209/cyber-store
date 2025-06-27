@@ -28,3 +28,12 @@ i {
 .NavPath li:last-child {
   color: black;
 }
+
+@media (max-width: 992px) {
+}
+
+@media (max-width: 768px) {
+  .ProductPagePhone .NavPath {
+    display: none;
+  }
+}

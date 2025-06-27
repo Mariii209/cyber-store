@@ -123,3 +123,35 @@
   font-weight: 500;
   line-height: 24px;
 }
+
+@media (max-width: 992px) {
+  .Phones .PhoneContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .Phones .ProductCard img {
+    height: 120px;
+    width: 120px;
+  }
+
+  .Phones .ProductCard .ProductTitle {
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .Phones .SelectWrapper {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .Phones img {
+    height: 104px;
+    width: 104px;
+  }
+
+  .Phones .ProductCard .BuyNowButton {
+    padding: 12px 34px;
+  }
+}
