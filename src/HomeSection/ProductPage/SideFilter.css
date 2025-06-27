@@ -36,6 +36,10 @@
   margin: 0;
 }
 
+.SideFilter ul li input {
+  margin-right: 8px;
+}
+
 .SideFilter ul li {
   display: flex;
   align-items: center;

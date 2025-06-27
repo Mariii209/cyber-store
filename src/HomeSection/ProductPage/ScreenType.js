@@ -9,20 +9,30 @@ export default function ScreenType() {
       </div>
       <hr />
       <form>
-        <input
-          type="search"
-          name=""
-          id=""
-          placeholder="Search screen type..."
-        />
+        <input type="search" placeholder="Search screen type..." />
       </form>
       <div className="ScreenTypeList">
         <ul>
-          <li>LCD</li>
-          <li>OLED</li>
-          <li>AMOLED</li>
-          <li>Super AMOLED</li>
-          <li>Retina</li>
+          <li>
+            <input type="checkbox" id="LCD" />
+            <label htmlFor="LCD">LCD</label>
+          </li>
+          <li>
+            <input type="checkbox" id="OLED" />
+            <label htmlFor="OLED">OLED</label>
+          </li>
+          <li>
+            <input type="checkbox" id="AMOLED" />
+            <label htmlFor="AMOLED">AMOLED</label>
+          </li>
+          <li>
+            <input type="checkbox" id="Super AMOLED" />
+            <label htmlFor="Super AMOLED">Super AMOLED</label>
+          </li>
+          <li>
+            <input type="checkbox" id="Retina" />
+            <label htmlFor="Retina">Retina</label>
+          </li>
         </ul>
       </div>
     </div>

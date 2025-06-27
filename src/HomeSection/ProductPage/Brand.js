@@ -13,13 +13,34 @@ export default function Brand() {
       </form>
       <div className="BrandList">
         <ul>
-          <li>Apple</li>
-          <li>Samsung</li>
-          <li>Google</li>
-          <li>OnePlus</li>
-          <li>Xiaomi</li>
-          <li>Oppo</li>
-          <li>Vivo</li>
+          <li>
+            <input type="checkbox" id="apple" />
+            <label htmlFor="apple">Apple</label>
+          </li>
+          <li>
+            <input type="checkbox" id="samsung" />
+            <label htmlFor="samsung">Samsung</label>
+          </li>
+          <li>
+            <input type="checkbox" id="google" />
+            <label htmlFor="google">Google </label>
+          </li>
+          <li>
+            <input type="checkbox" id="huawei" />
+            <label htmlFor="oneplus">OnePlus</label>
+          </li>
+          <li>
+            <input type="checkbox" id="xiaomi" />
+            <label htmlFor="xiaomi">Xiaomi</label>
+          </li>
+          <li>
+            <input type="checkbox" id="oppo" />
+            <label htmlFor="oppo">Oppo</label>
+          </li>
+          <li>
+            <input type="checkbox" id="vivo" />
+            <label htmlFor="vivo">Vivo</label>
+          </li>
         </ul>
       </div>
     </div>
