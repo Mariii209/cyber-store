@@ -8,12 +8,55 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 16px;
+  margin-bottom: 24px;
 }
 
 .Phones .ProductToolbarInfo {
   display: flex;
   gap: 8px;
+  align-items: center;
+}
+
+.Phones .ProductToolbarInfo p {
+  color: #6c6c6c;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.48px;
+  margin: 0;
+}
+
+.Phones .ProductToolbarInfo span {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.6px;
+}
+
+.Phones .SelectWrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.Phones .SelectWrapper select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 256px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  outline: none;
+}
+
+.Phones .SelectWrapper i {
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none; /* lets you click the select */
+  color: gray;
 }
 
 .Phones .ProductCard {

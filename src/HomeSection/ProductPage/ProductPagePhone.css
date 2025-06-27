@@ -4,6 +4,7 @@
 
 .ProductPagePhone .Content {
   display: flex;
+  gap: 32px;
 }
 
 .ProductPagePhone .NavPath {

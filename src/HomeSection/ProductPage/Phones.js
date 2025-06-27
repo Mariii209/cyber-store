@@ -8,13 +8,16 @@ export default function Phones() {
       <div className="ProductToolbar">
         <div className="ProductToolbarInfo">
           <p>Selected Product:</p>
-          <p>85</p>
+          <span>85</span>
         </div>
-        <select id="sort" name="sort">
-          <option value="rating">By rating</option>
-          <option value="price">By price</option>
-          <option value="popularity">By popularity</option>
-        </select>
+        <div className="SelectWrapper">
+          <i className="fa-solid fa-chevron-down"></i>
+          <select>
+            <option>By rating</option>
+            <option>By price</option>
+            <option>By popularity</option>
+          </select>
+        </div>
       </div>
       <div className="PhoneContainer">
         <div className="ProductCard">
