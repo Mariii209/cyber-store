@@ -1,5 +1,5 @@
 import React from "react";
-import GoldIphone14Pro from "./GoldIphone14Pro 1.png";
+import GoldIphone14Pro from "./GoldIphone14Pro1.png";
 import AppleAirPods from "./AppleAirPods.png";
 import AppleWatchSeries9 from "./AppleWatchSeries9.png";
 import WhiteIphone14pro from "./WhiteIphone14pro.png";

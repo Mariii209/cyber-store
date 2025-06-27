@@ -1,0 +1,82 @@
+.Phones .PhoneContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.Phones .ProductToolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.Phones .ProductToolbarInfo {
+  display: flex;
+  gap: 8px;
+}
+
+.Phones .ProductCard {
+  border-radius: 9px;
+  display: flex;
+  padding: 50px 16px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  background-color: #f6f6f6;
+  position: relative;
+}
+
+.Phones .ProductCard .Heart {
+  color: #909090c4;
+  position: absolute;
+  right: 13px;
+  top: 17px;
+  font-size: 27px;
+  margin-bottom: 16px;
+}
+
+.Phones img {
+  height: 160px;
+  width: 160px;
+}
+
+.Phones .ProductCard .ProductTitle {
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  height: 72px;
+  line-height: 24px;
+  margin: 16px 0;
+}
+
+.Phones .ProductCard .ProductPrice {
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.72px;
+}
+
+.Phones .ProductCard .BuyNowButton {
+  display: flex;
+  padding: 12px 55px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  background-color: black;
+  text-decoration: none;
+  color: white;
+  border-radius: 8px;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
