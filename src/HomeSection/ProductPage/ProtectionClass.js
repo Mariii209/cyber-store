@@ -1,17 +1,14 @@
 import React from "react";
+import ToggleSection from "./ToggleSection";
 
 export default function ProtectionClass() {
   return (
-    <div className="ProtectionClass Section">
-      <div className="Title ProtectionClassTitle">
-        <h3>Protection Class</h3>
-        <i className="fa-solid fa-chevron-up"></i>
-      </div>
-      <hr />
+    <ToggleSection title="Protection Class">
       <form>
-        <i class="fa-solid fa-magnifying-glass SearchIcon"></i>
-        <input type="search" name="" id="" placeholder="Search protection..." />
+        <i className="fa-solid fa-magnifying-glass SearchIcon"></i>
+        <input type="search" placeholder="Search protection..." />
       </form>
+
       <div className="ProtectionClassList">
         <ul>
           <li>
@@ -50,6 +47,6 @@ export default function ProtectionClass() {
           </li>
         </ul>
       </div>
-    </div>
+    </ToggleSection>
   );
 }

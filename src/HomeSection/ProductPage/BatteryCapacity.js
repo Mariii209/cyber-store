@@ -1,17 +1,14 @@
 import React from "react";
+import ToggleSection from "./ToggleSection";
 
 export default function BatteryCapacity() {
   return (
-    <div className="BatteryCapacity Section">
-      <div className="Title BatteryCapacityTitle">
-        <h3>Battery Capacity</h3>
-        <i className="fa-solid fa-chevron-up"></i>
-      </div>
-      <hr />
+    <ToggleSection title="Battery Capacity">
       <form>
-        <i class="fa-solid fa-magnifying-glass SearchIcon"></i>
-        <input type="search" name="" id="" placeholder="Search capacity..." />
+        <i className="fa-solid fa-magnifying-glass SearchIcon"></i>
+        <input type="search" placeholder="Search capacity..." />
       </form>
+
       <div className="BatteryCapacityList">
         <ul>
           <li>
@@ -44,6 +41,6 @@ export default function BatteryCapacity() {
           </li>
         </ul>
       </div>
-    </div>
+    </ToggleSection>
   );
 }

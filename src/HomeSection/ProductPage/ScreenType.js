@@ -1,17 +1,14 @@
 import React from "react";
+import ToggleSection from "./ToggleSection";
 
 export default function ScreenType() {
   return (
-    <div className="ScreenType Section">
-      <div className="Title ScreenTypeTitle">
-        <h3>Screen Type</h3>
-        <i className="fa-solid fa-chevron-up"></i>
-      </div>
-      <hr />
+    <ToggleSection title="Screen Type">
       <form>
-        <i class="fa-solid fa-magnifying-glass SearchIcon"></i>
+        <i className="fa-solid fa-magnifying-glass SearchIcon"></i>
         <input type="search" placeholder="Search screen type..." />
       </form>
+
       <div className="ScreenTypeList">
         <ul>
           <li>
@@ -36,6 +33,6 @@ export default function ScreenType() {
           </li>
         </ul>
       </div>
-    </div>
+    </ToggleSection>
   );
 }

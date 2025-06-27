@@ -1,17 +1,14 @@
 import React from "react";
+import ToggleSection from "./ToggleSection";
 
 export default function Brand() {
   return (
-    <div className="Brand Section">
-      <div className="Title BrandTitle">
-        <h3>Brand</h3>
-        <i class="fa-solid fa-chevron-up"></i>
-      </div>
-      <hr />
+    <ToggleSection title="Brand">
       <form>
-        <i class="fa-solid fa-magnifying-glass SearchIcon"></i>
+        <i className="fa-solid fa-magnifying-glass SearchIcon"></i>
         <input type="search" placeholder="Search brand..." />
       </form>
+
       <div className="BrandList">
         <ul>
           <li>
@@ -28,7 +25,7 @@ export default function Brand() {
           </li>
           <li>
             <input type="checkbox" id="huawei" />
-            <label htmlFor="oneplus">OnePlus</label>
+            <label htmlFor="huawei">Huawei</label>
           </li>
           <li>
             <input type="checkbox" id="xiaomi" />
@@ -44,6 +41,6 @@ export default function Brand() {
           </li>
         </ul>
       </div>
-    </div>
+    </ToggleSection>
   );
 }

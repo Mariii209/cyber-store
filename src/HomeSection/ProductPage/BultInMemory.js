@@ -1,17 +1,14 @@
 import React from "react";
+import ToggleSection from "./ToggleSection";
 
 export default function BuiltInMemory() {
   return (
-    <div className="BuiltInMemory Section">
-      <div className="Title BuiltInMemoryTitle">
-        <h3>Built-in Memory</h3>
-        <i className="fa-solid fa-chevron-up"></i>
-      </div>
-      <hr />
+    <ToggleSection title="Built-in Memory">
       <form>
-        <i class="fa-solid fa-magnifying-glass SearchIcon"></i>
+        <i className="fa-solid fa-magnifying-glass SearchIcon"></i>
         <input type="search" placeholder="Search memory..." />
       </form>
+
       <div className="BuiltInMemoryList">
         <ul>
           <li>
@@ -36,6 +33,6 @@ export default function BuiltInMemory() {
           </li>
         </ul>
       </div>
-    </div>
+    </ToggleSection>
   );
 }

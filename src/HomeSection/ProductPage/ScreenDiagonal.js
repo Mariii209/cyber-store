@@ -1,17 +1,14 @@
 import React from "react";
+import ToggleSection from "./ToggleSection";
 
 export default function ScreenDiagonal() {
   return (
-    <div className="ScreenDiagonal Section">
-      <div className="Title ScreenDiagonalTitle">
-        <h3>Screen Diagonal</h3>
-        <i className="fa-solid fa-chevron-up"></i>
-      </div>
-      <hr />
+    <ToggleSection title="Screen Diagonal">
       <form>
-        <i class="fa-solid fa-magnifying-glass SearchIcon"></i>
-        <input type="search" name="" id="" placeholder="Search diagonal..." />
+        <i className="fa-solid fa-magnifying-glass SearchIcon"></i>
+        <input type="search" placeholder="Search diagonal..." />
       </form>
+
       <div className="ScreenDiagonalList">
         <ul>
           <li>
@@ -32,6 +29,6 @@ export default function ScreenDiagonal() {
           </li>
         </ul>
       </div>
-    </div>
+    </ToggleSection>
   );
 }
