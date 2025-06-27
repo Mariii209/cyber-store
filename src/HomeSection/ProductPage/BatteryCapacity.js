@@ -2,13 +2,14 @@ import React from "react";
 
 export default function BatteryCapacity() {
   return (
-    <div className="BatteryCapacity">
+    <div className="BatteryCapacity Section">
       <div className="Title BatteryCapacityTitle">
         <h3>Battery Capacity</h3>
         <i className="fa-solid fa-chevron-up"></i>
       </div>
       <hr />
       <form>
+        <i class="fa-solid fa-magnifying-glass SearchIcon"></i>
         <input type="search" name="" id="" placeholder="Search capacity..." />
       </form>
       <div className="BatteryCapacityList">

@@ -2,13 +2,14 @@ import React from "react";
 
 export default function ProtectionClass() {
   return (
-    <div className="ProtectionClass">
+    <div className="ProtectionClass Section">
       <div className="Title ProtectionClassTitle">
         <h3>Protection Class</h3>
         <i className="fa-solid fa-chevron-up"></i>
       </div>
       <hr />
       <form>
+        <i class="fa-solid fa-magnifying-glass SearchIcon"></i>
         <input type="search" name="" id="" placeholder="Search protection..." />
       </form>
       <div className="ProtectionClassList">

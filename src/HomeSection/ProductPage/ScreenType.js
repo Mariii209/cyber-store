@@ -2,13 +2,14 @@ import React from "react";
 
 export default function ScreenType() {
   return (
-    <div className="ScreenType">
+    <div className="ScreenType Section">
       <div className="Title ScreenTypeTitle">
         <h3>Screen Type</h3>
         <i className="fa-solid fa-chevron-up"></i>
       </div>
       <hr />
       <form>
+        <i class="fa-solid fa-magnifying-glass SearchIcon"></i>
         <input type="search" placeholder="Search screen type..." />
       </form>
       <div className="ScreenTypeList">

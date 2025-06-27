@@ -2,13 +2,14 @@ import React from "react";
 
 export default function ScreenDiagonal() {
   return (
-    <div className="ScreenDiagonal">
+    <div className="ScreenDiagonal Section">
       <div className="Title ScreenDiagonalTitle">
         <h3>Screen Diagonal</h3>
         <i className="fa-solid fa-chevron-up"></i>
       </div>
       <hr />
       <form>
+        <i class="fa-solid fa-magnifying-glass SearchIcon"></i>
         <input type="search" name="" id="" placeholder="Search diagonal..." />
       </form>
       <div className="ScreenDiagonalList">

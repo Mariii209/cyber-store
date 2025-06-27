@@ -2,13 +2,14 @@ import React from "react";
 
 export default function BuiltInMemory() {
   return (
-    <div className="BuiltInMemory">
+    <div className="BuiltInMemory Section">
       <div className="Title BuiltInMemoryTitle">
         <h3>Built-in Memory</h3>
         <i className="fa-solid fa-chevron-up"></i>
       </div>
       <hr />
       <form>
+        <i class="fa-solid fa-magnifying-glass SearchIcon"></i>
         <input type="search" placeholder="Search memory..." />
       </form>
       <div className="BuiltInMemoryList">

@@ -2,13 +2,14 @@ import React from "react";
 
 export default function Brand() {
   return (
-    <div className="Brand">
+    <div className="Brand Section">
       <div className="Title BrandTitle">
         <h3>Brand</h3>
         <i class="fa-solid fa-chevron-up"></i>
       </div>
       <hr />
       <form>
+        <i class="fa-solid fa-magnifying-glass SearchIcon"></i>
         <input type="search" placeholder="Search brand..." />
       </form>
       <div className="BrandList">

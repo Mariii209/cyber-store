@@ -2,6 +2,10 @@
   width: 300px;
 }
 
+.SideFilter .Section:not(:last-child) {
+  margin-bottom: 30px;
+}
+
 .SideFilter .Title {
   display: flex;
   align-items: center;
@@ -18,6 +22,7 @@
 
 .SideFilter hr {
   color: gray;
+  margin: 14px 0 16px;
 }
 
 .SideFilter form input {
@@ -30,6 +35,19 @@
   outline: none;
 }
 
+.SideFilter form {
+  position: relative;
+  margin-bottom: 16px;
+}
+
+.SideFilter form .SearchIcon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: gray;
+}
+
 .SideFilter ul {
   list-style: none;
   padding: 0;
@@ -38,6 +56,10 @@
 
 .SideFilter ul li input {
   margin-right: 8px;
+}
+
+.SideFilter ul li input {
+  accent-color: black;
 }
 
 .SideFilter ul li {
