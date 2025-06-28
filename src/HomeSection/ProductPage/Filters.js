@@ -1,11 +1,12 @@
 import React from "react";
+import "./Filters.css";
 
 export default function Filters() {
   return (
-    <div>
-      <div>
+    <div className="Filters">
+      <div className="FiltersHeader">
         <h2>Filters</h2>
-        <i class="fa-solid fa-sliders-h"></i>
+        <i className="fa-solid fa-sliders-h"></i>
       </div>
 
       <div className="SelectWrapper">
