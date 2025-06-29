@@ -23,7 +23,7 @@ export default function Filters() {
 
       {showFilterCategory && (
         <div className="FilterCategory">
-          <div className="FilterCategoryHeader">
+          <div className="FilterCategoryHeader " onClick={toggleFilterCategory}>
             <i className="fa-solid fa-chevron-left"></i>
             <h4>Filters</h4>
           </div>
