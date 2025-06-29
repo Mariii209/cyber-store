@@ -177,4 +177,7 @@
   .Filters .SelectWrapper select {
     width: 150px;
   }
+  .FilterCategory {
+    width: 100vw;
+  }
 }
