@@ -1,6 +1,5 @@
 import React from "react";
 import ToggleSection from "./ToggleSection";
-import "./Brand.css";
 
 export default function Brand() {
   return (
