@@ -6,7 +6,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 180px;
+  width: 200px;
   padding: 16px;
   background-color: white;
   color: black;
@@ -27,6 +27,42 @@
   font-size: 16px;
 }
 
+.FilterCategory {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 350px;
+  height: 100vh;
+  background-color: white;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  transition: transform 0.3s ease;
+  z-index: 999;
+
+  overflow-y: auto;
+}
+
+.Filters .FilterCategoryHeader {
+  padding-top: 95px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.Filters .FilterCategoryHeader i {
+  font-size: 22px;
+  color: black;
+}
+
+.Filters .FilterCategoryHeader h4 {
+  margin-bottom: 0;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0.24px;
+}
+
 .Filters .SelectWrapper {
   position: relative;
   display: inline-flex;
@@ -37,9 +73,11 @@
   appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
-  width: 180px;
+  width: 200px;
   padding: 16px;
   border-radius: 8px;
+  background-color: white;
+  color: black;
   outline: none;
   border: 1px solid #e0e0e0;
 }

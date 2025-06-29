@@ -1,13 +1,40 @@
-import React from "react";
+import React, { useState } from "react";
+import Brand from "./Brand";
+import BatteryCapacity from "./BatteryCapacity";
+import ScreenType from "./ScreenType";
+import ScreenDiagonal from "./ScreenDiagonal";
+import ProtectionClass from "./ProtectionClass";
+import BuiltInMemory from "./BultInMemory";
 import "./Filters.css";
 
 export default function Filters() {
+  const [showFilterCategory, setShowFilterCategory] = useState(false);
+
+  const toggleFilterCategory = () => {
+    setShowFilterCategory(!showFilterCategory);
+  };
+
   return (
     <div className="Filters">
-      <div className="FiltersHeader">
+      <div className="FiltersHeader" onClick={toggleFilterCategory}>
         <h2>Filters</h2>
         <i className="fa-solid fa-sliders-h"></i>
       </div>
+
+      {showFilterCategory && (
+        <div className="FilterCategory">
+          <div className="FilterCategoryHeader">
+            <i className="fa-solid fa-chevron-left"></i>
+            <h4>Filters</h4>
+          </div>
+          <Brand />
+          <BatteryCapacity />
+          <ScreenType />
+          <ScreenDiagonal />
+          <ProtectionClass />
+          <BuiltInMemory />
+        </div>
+      )}
 
       <div className="SelectWrapper">
         <i className="fa-solid fa-chevron-down"></i>
