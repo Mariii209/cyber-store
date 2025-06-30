@@ -35,6 +35,9 @@ export default function Filters() {
           <ScreenDiagonal />
           <ProtectionClass />
           <BuiltInMemory />
+          <div className="FilterCategoryFooter">
+            <a href="/">Apply</a>
+          </div>
         </div>
       )}
 
