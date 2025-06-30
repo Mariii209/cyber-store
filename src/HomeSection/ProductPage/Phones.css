@@ -141,6 +141,12 @@
   }
 }
 
+@media (max-width: 900px) {
+  .Phones .SelectWrapper select {
+    width: 180px;
+  }
+}
+
 @media (max-width: 768px) {
   .Phones .SelectWrapper {
     display: none;
