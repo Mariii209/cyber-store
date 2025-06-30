@@ -5,6 +5,7 @@ import ScreenType from "./ScreenType";
 import ScreenDiagonal from "./ScreenDiagonal";
 import ProtectionClass from "./ProtectionClass";
 import BuiltInMemory from "./BultInMemory";
+import PriceRange from "./PriceRange";
 import "./Filters.css";
 
 export default function Filters() {
@@ -27,6 +28,7 @@ export default function Filters() {
             <i className="fa-solid fa-chevron-left"></i>
             <h4>Filters</h4>
           </div>
+          <PriceRange />
           <Brand />
           <BatteryCapacity />
           <ScreenType />

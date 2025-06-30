@@ -5,11 +5,13 @@ import ScreenType from "./ScreenType";
 import ScreenDiagonal from "./ScreenDiagonal";
 import ProtectionClass from "./ProtectionClass";
 import BuiltInMemory from "./BultInMemory";
+import PriceRange from "./PriceRange";
 import "./SideFilter.css";
 
 export default function SideFilter() {
   return (
     <div className="SideFilter">
+      <PriceRange />
       <Brand />
       <BatteryCapacity />
       <ScreenType />
