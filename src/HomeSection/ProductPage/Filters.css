@@ -137,7 +137,6 @@
 .Filters .FilterCategoryFooter {
   display: flex;
   width: 100%;
-
   border-radius: 8px;
   background-color: black;
   justify-content: center;
@@ -148,7 +147,6 @@
 .Filters .FilterCategoryFooter a {
   color: white;
   padding: 12px 100%;
-
   text-decoration: none;
   font-size: 14px;
   font-style: normal;

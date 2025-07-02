@@ -8,6 +8,7 @@ import SamsungGalaxyWatch6 from "./SamsungGalaxyWatch6.png";
 import AppleAirPods from "./AppleAirPods.png";
 import AppleWatchSeries9 from "./AppleWatchSeries9.png";
 import Blackmagic from "./Blackmagic.png";
+import { Link } from "react-router-dom";
 
 export default function Products() {
   return (
@@ -21,13 +22,15 @@ export default function Products() {
       <div className="ProductGrid">
         <div className="ProductCard">
           <i class="fa-regular fa-heart Heart"></i>
-          <img
-            src={Iphone14pro}
-            alt="Apple iPhone 14 Pro Max 128GB Deep Purple"
-          />
-          <p className="ProductTitle">
-            Apple iPhone 14 Pro Max 128GB Deep Purple
-          </p>
+          <Link to={`/product/iphone-14-pro`}>
+            <img
+              src={Iphone14pro}
+              alt="Apple iPhone 14 Pro Max 128GB Deep Purple"
+            />
+            <p className="ProductTitle">
+              Apple iPhone 14 Pro Max 128GB Deep Purple
+            </p>
+          </Link>
           <p className="ProductPrice">$900</p>
           <div className="BuyButtonWrapper">
             <a className="BuyNowButton" href="/">

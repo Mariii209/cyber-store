@@ -1,0 +1,21 @@
+.CategoryPath .NavPath {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 40px 0 80px;
+}
+
+.CategoryPath .NavPath li,
+i {
+  color: #a4a4a4;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+.CategoryPath .NavPath li:last-child {
+  color: black;
+}

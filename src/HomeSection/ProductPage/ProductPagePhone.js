@@ -6,6 +6,7 @@ import "./ProductPagePhone.css";
 import Phones from "./Phones";
 import Footer from "../../Footer";
 import Filters from "./Filters";
+import CategoryPath from "./CategoryPath";
 
 export default function ProductPagePhone() {
   const { category } = useParams();
@@ -13,13 +14,7 @@ export default function ProductPagePhone() {
     <div className="ProductPagePhone">
       <NavBar />
       <div className="ProductPagePhoneContent">
-        <ul className="NavPath">
-          <li>Home</li>
-          <i className="fa-solid fa-chevron-right"></i>
-          <li> Catalog</li>
-          <i className="fa-solid fa-chevron-right"></i>
-          <li>{category}</li>
-        </ul>
+        <CategoryPath category={category} />
         <Filters />
         <div className="Content">
           <SideFilter />
