@@ -1,8 +1,14 @@
 import React from "react";
-import GoldIphone14Pro from "../GoldIphone14Pro1.png";
+import { iphone14Series } from "../../ProductData/Phones/Apple/Iphone14";
+import ProductCard from "./ProductCard";
 import "./Phones.css";
 
 export default function Phones() {
+  const selectedIDs = ["iphone-14", "iphone-14-pro-max"];
+  const filteredPhones = iphone14Series.filter((phone) =>
+    selectedIDs.includes(phone.id)
+  );
+
   return (
     <div className="Phones">
       <div className="ProductToolbar">
@@ -19,159 +25,16 @@ export default function Phones() {
           </select>
         </div>
       </div>
+
       <div className="PhoneContainer">
-        <div className="ProductCard">
-          <i class="fa-regular fa-heart Heart"></i>
-          <img
-            src={GoldIphone14Pro}
-            alt="Apple iPhone 14 Pro Max 128GB Deep Purple"
+        {filteredPhones.map((phone) => (
+          <ProductCard
+            key={phone.id}
+            image={phone.colors[0].image}
+            title={`${phone.name} ${phone.memoryOptions[0].size}`}
+            price={phone.memoryOptions[0].price}
           />
-          <p className="ProductTitle">
-            Apple iPhone 14 Pro Max 128GB Deep Purple
-          </p>
-          <p className="ProductPrice">$900</p>
-          <div className="BuyButtonWrapper">
-            <a className="BuyNowButton" href="/">
-              Buy Now
-            </a>
-          </div>
-        </div>
-
-        <div className="ProductCard">
-          <i class="fa-regular fa-heart Heart"></i>
-          <img
-            src={GoldIphone14Pro}
-            alt="Apple iPhone 14 Pro Max 128GB Deep Purple"
-          />
-          <p className="ProductTitle">
-            Apple iPhone 14 Pro Max 128GB Deep Purple
-          </p>
-          <p className="ProductPrice">$900</p>
-          <div className="BuyButtonWrapper">
-            <a className="BuyNowButton" href="/">
-              Buy Now
-            </a>
-          </div>
-        </div>
-
-        <div className="ProductCard">
-          <i class="fa-regular fa-heart Heart"></i>
-          <img
-            src={GoldIphone14Pro}
-            alt="Apple iPhone 14 Pro Max 128GB Deep Purple"
-          />
-          <p className="ProductTitle">
-            Apple iPhone 14 Pro Max 128GB Deep Purple
-          </p>
-          <p className="ProductPrice">$900</p>
-          <div className="BuyButtonWrapper">
-            <a className="BuyNowButton" href="/">
-              Buy Now
-            </a>
-          </div>
-        </div>
-
-        <div className="ProductCard">
-          <i class="fa-regular fa-heart Heart"></i>
-          <img
-            src={GoldIphone14Pro}
-            alt="Apple iPhone 14 Pro Max 128GB Deep Purple"
-          />
-          <p className="ProductTitle">
-            Apple iPhone 14 Pro Max 128GB Deep Purple
-          </p>
-          <p className="ProductPrice">$900</p>
-          <div className="BuyButtonWrapper">
-            <a className="BuyNowButton" href="/">
-              Buy Now
-            </a>
-          </div>
-        </div>
-
-        <div className="ProductCard">
-          <i class="fa-regular fa-heart Heart"></i>
-          <img
-            src={GoldIphone14Pro}
-            alt="Apple iPhone 14 Pro Max 128GB Deep Purple"
-          />
-          <p className="ProductTitle">
-            Apple iPhone 14 Pro Max 128GB Deep Purple
-          </p>
-          <p className="ProductPrice">$900</p>
-          <div className="BuyButtonWrapper">
-            <a className="BuyNowButton" href="/">
-              Buy Now
-            </a>
-          </div>
-        </div>
-
-        <div className="ProductCard">
-          <i class="fa-regular fa-heart Heart"></i>
-          <img
-            src={GoldIphone14Pro}
-            alt="Apple iPhone 14 Pro Max 128GB Deep Purple"
-          />
-          <p className="ProductTitle">
-            Apple iPhone 14 Pro Max 128GB Deep Purple
-          </p>
-          <p className="ProductPrice">$900</p>
-          <div className="BuyButtonWrapper">
-            <a className="BuyNowButton" href="/">
-              Buy Now
-            </a>
-          </div>
-        </div>
-
-        <div className="ProductCard">
-          <i class="fa-regular fa-heart Heart"></i>
-          <img
-            src={GoldIphone14Pro}
-            alt="Apple iPhone 14 Pro Max 128GB Deep Purple"
-          />
-          <p className="ProductTitle">
-            Apple iPhone 14 Pro Max 128GB Deep Purple
-          </p>
-          <p className="ProductPrice">$900</p>
-          <div className="BuyButtonWrapper">
-            <a className="BuyNowButton" href="/">
-              Buy Now
-            </a>
-          </div>
-        </div>
-
-        <div className="ProductCard">
-          <i class="fa-regular fa-heart Heart"></i>
-          <img
-            src={GoldIphone14Pro}
-            alt="Apple iPhone 14 Pro Max 128GB Deep Purple"
-          />
-          <p className="ProductTitle">
-            Apple iPhone 14 Pro Max 128GB Deep Purple
-          </p>
-          <p className="ProductPrice">$900</p>
-          <div className="BuyButtonWrapper">
-            <a className="BuyNowButton" href="/">
-              Buy Now
-            </a>
-          </div>
-        </div>
-
-        <div className="ProductCard">
-          <i class="fa-regular fa-heart Heart"></i>
-          <img
-            src={GoldIphone14Pro}
-            alt="Apple iPhone 14 Pro Max 128GB Deep Purple"
-          />
-          <p className="ProductTitle">
-            Apple iPhone 14 Pro Max 128GB Deep Purple
-          </p>
-          <p className="ProductPrice">$900</p>
-          <div className="BuyButtonWrapper">
-            <a className="BuyNowButton" href="/">
-              Buy Now
-            </a>
-          </div>
-        </div>
+        ))}
       </div>
     </div>
   );
