@@ -21,6 +21,13 @@ export default function ProductDetailCard({ product }) {
         </div>
       </div>
 
+      <div className="StorageContianer">
+        <button className="StorageOption">128GB</button>
+        <button className="StorageOption">256GB</button>
+        <button className="StorageOption">512GB</button>
+        <button className="StorageOption">1TB</button>
+      </div>
+
       <div className="ProductSpecs">
         <div className="ProductSpec">
           <i className="fa-solid fa-mobile-screen-button SpecIcon"></i>
