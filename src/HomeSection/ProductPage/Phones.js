@@ -4,7 +4,12 @@ import ProductCard from "./ProductCard";
 import "./Phones.css";
 
 export default function Phones() {
-  const selectedIDs = ["iphone-14", "iphone-14-pro-max"];
+  const selectedIDs = [
+    "iphone-14",
+    "iphone-14-pro-max",
+    "iphone-14-pro",
+    "iphone-14-plus",
+  ];
   const filteredPhones = iphone14Series.filter((phone) =>
     selectedIDs.includes(phone.id)
   );
@@ -27,14 +32,16 @@ export default function Phones() {
       </div>
 
       <div className="PhoneContainer">
-        {filteredPhones.map((phone) => (
-          <ProductCard
-            key={phone.id}
-            image={phone.colors[0].image}
-            title={`${phone.name} ${phone.memoryOptions[0].size}`}
-            price={phone.memoryOptions[0].price}
-          />
-        ))}
+        {filteredPhones.map((phone) =>
+          phone.colors.map((color, colorIndex) => (
+            <ProductCard
+              key={`${phone.id}-${colorIndex}`}
+              image={color.image}
+              title={`${phone.name} ${phone.memoryOptions[0].size} - ${color.name}`}
+              price={phone.memoryOptions[0].price}
+            />
+          ))
+        )}
       </div>
     </div>
   );

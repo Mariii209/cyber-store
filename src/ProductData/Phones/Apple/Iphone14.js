@@ -7,7 +7,7 @@ export const iphone14Series = [
     colors: [
       {
         name: "Blue",
-        image: "/images/iphone-14/blue/front.jpg",
+        image: "/Images/Apple/Phone/BlueiPhone14andPlus.png",
         images: [
           "/images/iphone-14/blue/front.jpg",
           "/images/iphone-14/blue/back.jpg",
@@ -16,7 +16,7 @@ export const iphone14Series = [
       },
       {
         name: "Purple",
-        image: "/images/iphone-14/purple/front.jpg",
+        image: "/Images/Apple/Phone/PurpleiPhone14andPlus.png",
         images: [
           "/images/iphone-14/purple/front.jpg",
           "/images/iphone-14/purple/back.jpg",
@@ -25,7 +25,7 @@ export const iphone14Series = [
       },
       {
         name: "Midnight",
-        image: "/images/iphone-14/midnight/front.jpg",
+        image: "/Images/Apple/Phone/MidnightiPhone14andPlus.png",
         images: [
           "/images/iphone-14/midnight/front.jpg",
           "/images/iphone-14/midnight/back.jpg",
@@ -34,7 +34,7 @@ export const iphone14Series = [
       },
       {
         name: "Starlight",
-        image: "/images/iphone-14/starlight/front.jpg",
+        image: "/Images/Apple/Phone/StarlightiPhone14andPlus.png",
         images: [
           "/images/iphone-14/starlight/front.jpg",
           "/images/iphone-14/starlight/back.jpg",
@@ -43,7 +43,7 @@ export const iphone14Series = [
       },
       {
         name: "Red",
-        image: "/images/iphone-14/red/front.jpg",
+        image: "/Images/Apple/Phone/RediPhone14andPlus.png",
         images: [
           "/images/iphone-14/red/front.jpg",
           "/images/iphone-14/red/back.jpg",
@@ -52,7 +52,7 @@ export const iphone14Series = [
       },
       {
         name: "Yellow",
-        image: "/images/iphone-14/yellow/front.jpg",
+        image: "/Images/Apple/Phone/YellowiPhone14andPlus.png",
         images: [
           "/images/iphone-14/yellow/front.jpg",
           "/images/iphone-14/yellow/back.jpg",
@@ -99,7 +99,7 @@ export const iphone14Series = [
     colors: [
       {
         name: "Blue",
-        image: "/images/iphone-14-plus/blue/front.jpg",
+        image: "/Images/Apple/Phone/BlueiPhone14andPlus.png",
         images: [
           "/images/iphone-14-plus/blue/front.jpg",
           "/images/iphone-14-plus/blue/back.jpg",
@@ -108,7 +108,7 @@ export const iphone14Series = [
       },
       {
         name: "Purple",
-        image: "/images/iphone-14-plus/purple/front.jpg",
+        image: "/Images/Apple/Phone/PurpleiPhone14andPlus.png",
         images: [
           "/images/iphone-14-plus/purple/front.jpg",
           "/images/iphone-14-plus/purple/back.jpg",
@@ -117,7 +117,7 @@ export const iphone14Series = [
       },
       {
         name: "Midnight",
-        image: "/images/iphone-14-plus/midnight/front.jpg",
+        image: "/Images/Apple/Phone/MidnightiPhone14andPlus.png",
         images: [
           "/images/iphone-14-plus/midnight/front.jpg",
           "/images/iphone-14-plus/midnight/back.jpg",
@@ -126,7 +126,7 @@ export const iphone14Series = [
       },
       {
         name: "Starlight",
-        image: "/images/iphone-14-plus/starlight/front.jpg",
+        image: "/Images/Apple/Phone/StarlightiPhone14andPlus.png",
         images: [
           "/images/iphone-14-plus/starlight/front.jpg",
           "/images/iphone-14-plus/starlight/back.jpg",
@@ -135,7 +135,7 @@ export const iphone14Series = [
       },
       {
         name: "Red",
-        image: "/images/iphone-14-plus/red/front.jpg",
+        image: "/Images/Apple/Phone/RediPhone14andPlus.png",
         images: [
           "/images/iphone-14-plus/red/front.jpg",
           "/images/iphone-14-plus/red/back.jpg",
@@ -144,7 +144,7 @@ export const iphone14Series = [
       },
       {
         name: "Yellow",
-        image: "/images/iphone-14-plus/yellow/front.jpg",
+        image: "/Images/Apple/Phone/YellowiPhone14andPlus.png",
         images: [
           "/images/iphone-14-plus/yellow/front.jpg",
           "/images/iphone-14-plus/yellow/back.jpg",
@@ -190,7 +190,7 @@ export const iphone14Series = [
     colors: [
       {
         name: "Deep Purple",
-        image: "/images/iphone-14-pro/deep-purple/front.jpg",
+        image: "/Images/Apple/Phone/DeepPurpleiPhone14ProandMax.png",
         images: [
           "/images/iphone-14-pro/deep-purple/front.jpg",
           "/images/iphone-14-pro/deep-purple/back.jpg",
@@ -199,7 +199,7 @@ export const iphone14Series = [
       },
       {
         name: "Gold",
-        image: "/images/iphone-14-pro/gold/front.jpg",
+        image: "/Images/Apple/Phone/GoldiPhone14ProandMax.png",
         images: [
           "/images/iphone-14-pro/gold/front.jpg",
           "/images/iphone-14-pro/gold/back.jpg",
@@ -208,7 +208,7 @@ export const iphone14Series = [
       },
       {
         name: "Silver",
-        image: "/images/iphone-14-pro/silver/front.jpg",
+        image: "/Images/Apple/Phone/SilveriPhone14ProandMax.png",
         images: [
           "/images/iphone-14-pro/silver/front.jpg",
           "/images/iphone-14-pro/silver/back.jpg",
@@ -217,7 +217,7 @@ export const iphone14Series = [
       },
       {
         name: "Space Black",
-        image: "/images/iphone-14-pro/space-black/front.jpg",
+        image: "/Images/Apple/Phone/SpaceBlackiPhone14ProandMax.png",
         images: [
           "/images/iphone-14-pro/space-black/front.jpg",
           "/images/iphone-14-pro/space-black/back.jpg",
@@ -263,7 +263,7 @@ export const iphone14Series = [
     colors: [
       {
         name: "Deep Purple",
-        image: "/images/iphone-14-pro-max/deep-purple/front.jpg",
+        image: "/Images/Apple/Phone/DeepPurpleiPhone14ProandMax.png",
         images: [
           "/images/iphone-14-pro-max/deep-purple/front.jpg",
           "/images/iphone-14-pro-max/deep-purple/back.jpg",
@@ -272,7 +272,7 @@ export const iphone14Series = [
       },
       {
         name: "Gold",
-        image: "/images/iphone-14-pro-max/gold/front.jpg",
+        image: "/Images/Apple/Phone/GoldiPhone14ProandMax.png",
         images: [
           "/images/iphone-14-pro-max/gold/front.jpg",
           "/images/iphone-14-pro-max/gold/back.jpg",
@@ -281,7 +281,7 @@ export const iphone14Series = [
       },
       {
         name: "Silver",
-        image: "/images/iphone-14-pro-max/silver/front.jpg",
+        image: "/Images/Apple/Phone/SilveriPhone14ProandMax.png",
         images: [
           "/images/iphone-14-pro-max/silver/front.jpg",
           "/images/iphone-14-pro-max/silver/back.jpg",
@@ -290,7 +290,7 @@ export const iphone14Series = [
       },
       {
         name: "Space Black",
-        image: "/images/iphone-14-pro-max/space-black/front.jpg",
+        image: "/Images/Apple/Phone/SpaceBlackiPhone14ProandMax.png",
         images: [
           "/images/iphone-14-pro-max/space-black/front.jpg",
           "/images/iphone-14-pro-max/space-black/back.jpg",
