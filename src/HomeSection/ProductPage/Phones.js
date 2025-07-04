@@ -2,7 +2,6 @@ import React from "react";
 import { iphone14Series } from "../../ProductData/Phones/Apple/Iphone14";
 import ProductCard from "./ProductCard";
 import "./Phones.css";
-import { Link } from "react-router-dom";
 
 export default function Phones() {
   const selectedIDs = [
