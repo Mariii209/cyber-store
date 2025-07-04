@@ -35,18 +35,14 @@ export default function Phones() {
       <div className="PhoneContainer">
         {filteredPhones.map((phone) =>
           phone.colors.map((color, colorIndex) => (
-            <Link
-              to={`/product/${phone.id}`}
+            <ProductCard
               key={`${phone.id}-${colorIndex}`}
-              style={{ textDecoration: "none", color: "inherit" }} // optional styling
-            >
-              <ProductCard
-                key={`${phone.id}-${colorIndex}`}
-                image={color.image}
-                title={`${phone.name} ${phone.memoryOptions[0].size} - ${color.name}`}
-                price={phone.memoryOptions[0].price}
-              />
-            </Link>
+              id={phone.id}
+              color={color.name}
+              image={color.image}
+              title={`${phone.name} ${phone.memoryOptions[0].size} - ${color.name}`}
+              price={phone.memoryOptions[0].price}
+            />
           ))
         )}
       </div>
