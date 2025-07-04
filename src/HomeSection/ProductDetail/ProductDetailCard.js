@@ -1,33 +1,80 @@
-import React from "react";
+import React, { useState } from "react";
 import "./ProductDetailCard.css";
 
 export default function ProductDetailCard({ product }) {
+  const [selectedColorIndex, setSelectedColorIndex] = useState(0);
+  const [selectedStorageIndex, setSelectedStorageIndex] = useState(0);
+
+  const selectedColor = product.colors[selectedColorIndex];
+  const selectedStorage = product.memoryOptions[selectedStorageIndex];
+
   return (
     <div className="ProductDetailCard">
-      <img className="ProductImage" src={product.image} alt={product.name} />
+      {/* Main Product Image */}
+      <img
+        className="ProductImage"
+        src={selectedColor.image}
+        alt={`${product.name} - ${selectedColor.name}`}
+      />
 
-      <h1 className="ProductTitle">Apple iPhone 14 Pro Max</h1>
+      {/* Product Name */}
+      <h1 className="ProductTitle">{product.name}</h1>
+
+      {/* Price (default to first memory option) */}
       <div className="PriceContainer">
-        <h4 className="ProductPrice">$1399</h4>
-        <h5 className="OriginalPrice">$1499</h5>
+        <h4 className="ProductPrice">${selectedStorage.price}</h4>
+        <h5 className="OriginalPrice">
+          ${Math.round(selectedStorage.price * 1.1)}
+        </h5>
       </div>
 
+      {/* Colors */}
       <div className="ColorContainer">
         <p className="ColorLabel">Select color:</p>
         <div className="ColorOptions">
-          <div className="ColorOption"></div>
-          <div className="ColorOption"></div>
-          <div className="ColorOption"></div>
+          {product.colors.map((color, index) => (
+            <div
+              key={index}
+              onClick={() => setSelectedColorIndex(index)}
+              className={`ColorOption ${
+                index === selectedColorIndex ? "SelectedColor" : ""
+              }`}
+              style={{
+                backgroundImage: `url(${color.image})`,
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+                width: "40px",
+                height: "40px",
+                borderRadius: "50%",
+                marginRight: "8px",
+                border:
+                  index === selectedColorIndex
+                    ? "2px solid black"
+                    : "1px solid #ccc",
+                cursor: "pointer",
+              }}
+              title={color.name}
+            ></div>
+          ))}
         </div>
       </div>
 
+      {/* Storage Options */}
       <div className="StorageContianer">
-        <button className="StorageOption">128GB</button>
-        <button className="StorageOption">256GB</button>
-        <button className="StorageOption">512GB</button>
-        <button className="StorageOption">1TB</button>
+        {product.memoryOptions.map((option, index) => (
+          <button
+            key={index}
+            className={`StorageOption ${
+              index === selectedStorageIndex ? "SelectedStorage" : ""
+            }`}
+            onClick={() => setSelectedStorageIndex(index)}
+          >
+            {option.size}
+          </button>
+        ))}
       </div>
 
+      {/* Specs (still hardcoded for now) */}
       <div className="ProductSpecs">
         <div className="ProductSpec">
           <i className="fa-solid fa-mobile-screen-button SpecIcon"></i>
@@ -78,12 +125,10 @@ export default function ProductDetailCard({ product }) {
         </div>
       </div>
 
-      <p className="ProductDescription">
-        Enhanced capabilities thanks to an enlarged display of 6.7 inches and
-        all-day battery life. Capture incredible photos in low or bright light
-        with a powerful new dual-camera system.
-      </p>
+      {/* Product Description */}
+      <p className="ProductDescription">{product.description}</p>
 
+      {/* Action Buttons */}
       <div className="ProductActions">
         <button className="WishlistButton">Add to Wishlist</button>
         <button className="CartButton">Add to Cart</button>

@@ -2,6 +2,7 @@ import React from "react";
 import { iphone14Series } from "../../ProductData/Phones/Apple/Iphone14";
 import ProductCard from "./ProductCard";
 import "./Phones.css";
+import { Link } from "react-router-dom";
 
 export default function Phones() {
   const selectedIDs = [
@@ -34,12 +35,18 @@ export default function Phones() {
       <div className="PhoneContainer">
         {filteredPhones.map((phone) =>
           phone.colors.map((color, colorIndex) => (
-            <ProductCard
+            <Link
+              to={`/product/${phone.id}`}
               key={`${phone.id}-${colorIndex}`}
-              image={color.image}
-              title={`${phone.name} ${phone.memoryOptions[0].size} - ${color.name}`}
-              price={phone.memoryOptions[0].price}
-            />
+              style={{ textDecoration: "none", color: "inherit" }} // optional styling
+            >
+              <ProductCard
+                key={`${phone.id}-${colorIndex}`}
+                image={color.image}
+                title={`${phone.name} ${phone.memoryOptions[0].size} - ${color.name}`}
+                price={phone.memoryOptions[0].price}
+              />
+            </Link>
           ))
         )}
       </div>
