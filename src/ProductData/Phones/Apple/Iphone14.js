@@ -10,7 +10,7 @@ export const iphone14Series = [
         image: "/Images/Apple/Phone/BlueiPhone14andPlus.png",
         images: [
           "/Images/Apple/Phone/iPhone14DisplaySide/BlueiPhone14andPlusFront.png",
-          "/Images/Apple/Phone/iPhone14DisplayBack/BlueiPhone14andPlusBack.png",
+          "/Images/Apple/Phone/iPhone14DisplaySide/BlueiPhone14andPlusBack.png",
           "/Images/Apple/Phone/iPhone14DisplaySide/BlueiPhone14andPlusSide.png",
         ],
       },
@@ -19,7 +19,7 @@ export const iphone14Series = [
         image: "/Images/Apple/Phone/PurpleiPhone14andPlus.png",
         images: [
           "/Images/Apple/Phone/iPhone14DisplaySide/PurpleiPhone14andPlusFront.png",
-          "/Images/Apple/Phone/iPhone14DisplayBack/PurpleiPhone14andPlusBack.png",
+          "/Images/Apple/Phone/iPhone14DisplaySide/PurpleiPhone14andPlusBack.png",
           "/Images/Apple/Phone/iPhone14DisplaySide/PurpleiPhone14andPlusSide.png",
         ],
       },
@@ -28,7 +28,7 @@ export const iphone14Series = [
         image: "/Images/Apple/Phone/MidnightiPhone14andPlus.png",
         images: [
           "/Images/Apple/Phone/iPhone14DisplaySide/MidnightiPhone14andPlusFront.png",
-          "/Images/Apple/Phone/iPhone14DisplayBack/MidnightiPhone14andPlusBack.png",
+          "/Images/Apple/Phone/iPhone14DisplaySide/MidnightiPhone14andPlusBack.png",
           "/Images/Apple/Phone/iPhone14DisplaySide/MidnightiPhone14andPlusSide.png",
         ],
       },
@@ -37,7 +37,7 @@ export const iphone14Series = [
         image: "/Images/Apple/Phone/StarlightiPhone14andPlus.png",
         images: [
           "/Images/Apple/Phone/iPhone14DisplaySide/StarlightiPhone14andPlusFront.png",
-          "/Images/Apple/Phone/iPhone14DisplayBack/StarlightiPhone14andPlusBack.png",
+          "/Images/Apple/Phone/iPhone14DisplaySide/StarlightiPhone14andPlusBack.png",
           "/Images/Apple/Phone/iPhone14DisplaySide/StarlightiPhone14andPlusSide.png",
         ],
       },
@@ -46,7 +46,7 @@ export const iphone14Series = [
         image: "/Images/Apple/Phone/RediPhone14andPlus.png",
         images: [
           "/Images/Apple/Phone/iPhone14DisplaySide/RediPhone14andPlusFront.png",
-          "/Images/Apple/Phone/iPhone14DisplayBack/RediPhone14andPlusBack.png",
+          "/Images/Apple/Phone/iPhone14DisplaySide/RediPhone14andPlusBack.png",
           "/Images/Apple/Phone/iPhone14DisplaySide/RediPhone14andPlusSide.png",
         ],
       },
@@ -55,7 +55,7 @@ export const iphone14Series = [
         image: "/Images/Apple/Phone/YellowiPhone14andPlus.png",
         images: [
           "/Images/Apple/Phone/iPhone14DisplaySide/YellowiPhone14andPlusFront.png",
-          "/Images/Apple/Phone/iPhone14DisplayBack/YellowiPhone14andPlusBack.png",
+          "/Images/Apple/Phone/iPhone14DisplaySide/YellowiPhone14andPlusBack.png",
           "/Images/Apple/Phone/iPhone14DisplaySide/YellowiPhone14andPlusSide.png",
         ],
       },
@@ -102,7 +102,7 @@ export const iphone14Series = [
         image: "/Images/Apple/Phone/BlueiPhone14andPlus.png",
         images: [
           "/Images/Apple/Phone/iPhone14DisplaySide/BlueiPhone14andPlusFront.png",
-          "/Images/Apple/Phone/iPhone14DisplayBack/BlueiPhone14andPlusBack.png",
+          "/Images/Apple/Phone/iPhone14DisplaySide/BlueiPhone14andPlusBack.png",
           "/Images/Apple/Phone/iPhone14DisplaySide/BlueiPhone14andPlusSide.png",
         ],
       },
@@ -111,7 +111,7 @@ export const iphone14Series = [
         image: "/Images/Apple/Phone/PurpleiPhone14andPlus.png",
         images: [
           "/Images/Apple/Phone/iPhone14DisplaySide/PurpleiPhone14andPlusFront.png",
-          "/Images/Apple/Phone/iPhone14DisplayBack/PurpleiPhone14andPlusBack.png",
+          "/Images/Apple/Phone/iPhone14DisplaySide/PurpleiPhone14andPlusBack.png",
           "/Images/Apple/Phone/iPhone14DisplaySide/PurpleiPhone14andPlusSide.png",
         ],
       },
@@ -120,7 +120,7 @@ export const iphone14Series = [
         image: "/Images/Apple/Phone/MidnightiPhone14andPlus.png",
         images: [
           "/Images/Apple/Phone/iPhone14DisplaySide/MidnightiPhone14andPlusFront.png",
-          "/Images/Apple/Phone/iPhone14DisplayBack/MidnightiPhone14andPlusBack.png",
+          "/Images/Apple/Phone/iPhone14DisplaySide/MidnightiPhone14andPlusBack.png",
           "/Images/Apple/Phone/iPhone14DisplaySide/MidnightiPhone14andPlusSide.png",
         ],
       },
@@ -129,7 +129,7 @@ export const iphone14Series = [
         image: "/Images/Apple/Phone/StarlightiPhone14andPlus.png",
         images: [
           "/Images/Apple/Phone/iPhone14DisplaySide/StarlightiPhone14andPlusFront.png",
-          "/Images/Apple/Phone/iPhone14DisplayBack/StarlightiPhone14andPlusBack.png",
+          "/Images/Apple/Phone/iPhone14DisplaySide/StarlightiPhone14andPlusBack.png",
           "/Images/Apple/Phone/iPhone14DisplaySide/StarlightiPhone14andPlusSide.png",
         ],
       },
@@ -138,7 +138,7 @@ export const iphone14Series = [
         image: "/Images/Apple/Phone/RediPhone14andPlus.png",
         images: [
           "/Images/Apple/Phone/iPhone14DisplaySide/RediPhone14andPlusFront.png",
-          "/Images/Apple/Phone/iPhone14DisplayBack/RediPhone14andPlusBack.png",
+          "/Images/Apple/Phone/iPhone14DisplaySide/RediPhone14andPlusBack.png",
           "/Images/Apple/Phone/iPhone14DisplaySide/RediPhone14andPlusSide.png",
         ],
       },
@@ -147,7 +147,7 @@ export const iphone14Series = [
         image: "/Images/Apple/Phone/YellowiPhone14andPlus.png",
         images: [
           "/Images/Apple/Phone/iPhone14DisplaySide/YellowiPhone14andPlusFront.png",
-          "/Images/Apple/Phone/iPhone14DisplayBack/YellowiPhone14andPlusBack.png",
+          "/Images/Apple/Phone/iPhone14DisplaySide/YellowiPhone14andPlusBack.png",
           "/Images/Apple/Phone/iPhone14DisplaySide/YellowiPhone14andPlusSide.png",
         ],
       },
@@ -193,7 +193,7 @@ export const iphone14Series = [
         image: "/Images/Apple/Phone/DeepPurpleiPhone14ProandMax.png",
         images: [
           "/Images/Apple/Phone/iPhone14DisplaySide/DeepPurpleiPhone14ProandMaxFront.png",
-          "/Images/Apple/Phone/iPhone14DisplayBack/DeepPurpleiPhone14ProandMaxBack.png",
+          "/Images/Apple/Phone/iPhone14DisplaySide/DeepPurpleiPhone14ProandMaxBack.png",
           "/Images/Apple/Phone/iPhone14DisplaySide/DeepPurpleiPhone14ProandMaxSide.png",
         ],
       },
@@ -202,7 +202,7 @@ export const iphone14Series = [
         image: "/Images/Apple/Phone/GoldiPhone14ProandMax.png",
         images: [
           "/Images/Apple/Phone/iPhone14DisplaySide/GoldiPhone14ProandMaxFront.png",
-          "/Images/Apple/Phone/iPhone14DisplayBack/GoldiPhone14ProandMaxBack.png",
+          "/Images/Apple/Phone/iPhone14DisplaySide/GoldiPhone14ProandMaxBack.png",
           "/Images/Apple/Phone/iPhone14DisplaySide/GoldiPhone14ProandMaxSide.png",
         ],
       },
@@ -211,7 +211,7 @@ export const iphone14Series = [
         image: "/Images/Apple/Phone/SilveriPhone14ProandMax.png",
         images: [
           "/Images/Apple/Phone/iPhone14DisplaySide/SilveriPhone14ProandMaxFront.png",
-          "/Images/Apple/Phone/iPhone14DisplayBack/SilveriPhone14ProandMaxBack.png",
+          "/Images/Apple/Phone/iPhone14DisplaySide/SilveriPhone14ProandMaxBack.png",
           "/Images/Apple/Phone/iPhone14DisplaySide/SilveriPhone14ProandMaxSide.png",
         ],
       },
@@ -220,7 +220,7 @@ export const iphone14Series = [
         image: "/Images/Apple/Phone/SpaceBlackiPhone14ProandMax.png",
         images: [
           "/Images/Apple/Phone/iPhone14DisplaySide/SpaceBlackiPhone14ProandMaxFront.png",
-          "/Images/Apple/Phone/iPhone14DisplayBack/SpaceBlackiPhone14ProandMaxBack.png",
+          "/Images/Apple/Phone/iPhone14DisplaySide/SpaceBlackiPhone14ProandMaxBack.png",
           "/Images/Apple/Phone/iPhone14DisplaySide/SpaceBlackiPhone14ProandMaxSide.png",
         ],
       },
@@ -266,7 +266,7 @@ export const iphone14Series = [
         image: "/Images/Apple/Phone/DeepPurpleiPhone14ProandMax.png",
         images: [
           "/Images/Apple/Phone/iPhone14DisplaySide/DeepPurpleiPhone14ProandMaxFront.png",
-          "/Images/Apple/Phone/iPhone14DisplayBack/DeepPurpleiPhone14ProandMaxBack.png",
+          "/Images/Apple/Phone/iPhone14DisplaySide/DeepPurpleiPhone14ProandMaxBack.png",
           "/Images/Apple/Phone/iPhone14DisplaySide/DeepPurpleiPhone14ProandMaxSide.png",
         ],
       },
@@ -275,7 +275,7 @@ export const iphone14Series = [
         image: "/Images/Apple/Phone/GoldiPhone14ProandMax.png",
         images: [
           "/Images/Apple/Phone/iPhone14DisplaySide/GoldiPhone14ProandMaxFront.png",
-          "/Images/Apple/Phone/iPhone14DisplayBack/GoldiPhone14ProandMaxBack.png",
+          "/Images/Apple/Phone/iPhone14DisplaySide/GoldiPhone14ProandMaxBack.png",
           "/Images/Apple/Phone/iPhone14DisplaySide/GoldiPhone14ProandMaxSide.png",
         ],
       },
@@ -284,7 +284,7 @@ export const iphone14Series = [
         image: "/Images/Apple/Phone/SilveriPhone14ProandMax.png",
         images: [
           "/Images/Apple/Phone/iPhone14DisplaySide/SilveriPhone14ProandMaxFront.png",
-          "/Images/Apple/Phone/iPhone14DisplayBack/SilveriPhone14ProandMaxBack.png",
+          "/Images/Apple/Phone/iPhone14DisplaySide/SilveriPhone14ProandMaxBack.png",
           "/Images/Apple/Phone/iPhone14DisplaySide/SilveriPhone14ProandMaxSide.png",
         ],
       },
@@ -293,7 +293,7 @@ export const iphone14Series = [
         image: "/Images/Apple/Phone/SpaceBlackiPhone14ProandMax.png",
         images: [
           "/Images/Apple/Phone/iPhone14DisplaySide/SpaceBlackiPhone14ProandMaxFront.png",
-          "/Images/Apple/Phone/iPhone14DisplayBack/SpaceBlackiPhone14ProandMaxBack.png",
+          "/Images/Apple/Phone/iPhone14DisplaySide/SpaceBlackiPhone14ProandMaxBack.png",
           "/Images/Apple/Phone/iPhone14DisplaySide/SpaceBlackiPhone14ProandMaxSide.png",
         ],
       },

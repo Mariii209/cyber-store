@@ -13,6 +13,8 @@ export default function ProductDetailCard({ product, selectedColor }) {
 
   const [selectedStorageIndex, setSelectedStorageIndex] = useState(0);
 
+  const [selectedThumbnailIndex, setSelectedThumbnailIndex] = useState(0);
+
   const color = product.colors[selectedColorIndex];
   const storage = product.memoryOptions[selectedStorageIndex];
 
@@ -20,6 +22,21 @@ export default function ProductDetailCard({ product, selectedColor }) {
     <div className="ProductDetailCard">
       {/* Main Product Image */}
       <div className="ProductImageContainer">
+        <div className="ImageOverlay">
+          <div className="ImageThumbnails">
+            {color.images.map((image, index) => (
+              <img
+                key={index}
+                src={image}
+                alt={`${product.name} - ${color.name} view ${index + 1}`}
+                className={`ThumbnailImage ${
+                  index === selectedColorIndex ? "ActiveThumbnail" : ""
+                }`}
+                onClick={() => setSelectedThumbnailIndex(index)}
+              />
+            ))}
+          </div>
+        </div>
         <img
           className="ProductImage"
           src={color.image}
