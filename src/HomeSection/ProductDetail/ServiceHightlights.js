@@ -7,7 +7,7 @@ export default function ServiceHighlights() {
       <div className="InfoItem">
         <i class="fa-solid fa-truck"></i>
         <div>
-          <strong>Free Delivery</strong>
+          <h6>Free Delivery</h6>
           <p>1–2 day</p>
         </div>
       </div>
@@ -15,7 +15,7 @@ export default function ServiceHighlights() {
       <div className="InfoItem">
         <i class="fa-solid fa-store"></i>
         <div>
-          <strong>In Stock</strong>
+          <h6>In Stock</h6>
           <p>Today</p>
         </div>
       </div>
@@ -23,7 +23,7 @@ export default function ServiceHighlights() {
       <div className="InfoItem">
         <i class="fa-solid fa-certificate"></i>
         <div>
-          <strong>Guaranteed</strong>
+          <h6>Guaranteed</h6>
           <p>1 year</p>
         </div>
       </div>
