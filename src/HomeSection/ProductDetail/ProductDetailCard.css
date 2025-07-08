@@ -111,7 +111,6 @@
 .ProductDetailCard .ProductSpec {
   display: flex;
   padding: 16px 8px;
-  max-width: 200px;
   align-items: center;
   justify-content: center;
   gap: 8px;
@@ -175,4 +174,28 @@
 .ProductDetailCard .CartButton {
   background: black;
   color: white;
+}
+
+@media (max-width: 992px) {
+  .ProductDetailCard {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ProductDetailCard h1 {
+    text-align: center;
+  }
+
+  .ProductDetailCard .ProductInfoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .ProductDetailCard .ColorContainer,
+  .ProductDetailCard {
+    flex-direction: column;
+    align-items: center;
+  }
 }
