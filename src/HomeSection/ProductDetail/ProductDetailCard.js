@@ -22,24 +22,23 @@ export default function ProductDetailCard({ product, selectedColor }) {
     <div className="ProductDetailCard">
       {/* Main Product Image */}
       <div className="ProductImageContainer">
-        <div className="ImageOverlay">
-          <div className="ImageThumbnails">
-            {color.images.map((image, index) => (
-              <img
-                key={index}
-                src={image}
-                alt={`${product.name} - ${color.name} view ${index + 1}`}
-                className={`ThumbnailImage ${
-                  index === selectedColorIndex ? "ActiveThumbnail" : ""
-                }`}
-                onClick={() => setSelectedThumbnailIndex(index)}
-              />
-            ))}
-          </div>
+        <div className="ImageThumbnails">
+          {color.images.map((image, index) => (
+            <img
+              key={index}
+              src={image}
+              alt={`${product.name} - ${color.name} view ${index + 1}`}
+              className={`ThumbnailImage ${
+                index === selectedColorIndex ? "ActiveThumbnail" : ""
+              }`}
+              onClick={() => setSelectedThumbnailIndex(index)}
+            />
+          ))}
         </div>
+
         <img
           className="ProductImage"
-          src={color.image}
+          src={color.images[selectedThumbnailIndex]}
           alt={`${product.name} - ${color.name}`}
         />
       </div>

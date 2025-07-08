@@ -3,6 +3,25 @@
   align-items: center;
 }
 
+.ProductDetailCard .ImageThumbnails {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.ProductDetailCard .ImageThumbnails img {
+  width: 75px;
+  height: 93px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.ProductDetailCard .ProductImageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .ProductDetailCard .ProductImageContainer img {
   width: 414px;
   height: 516px;
