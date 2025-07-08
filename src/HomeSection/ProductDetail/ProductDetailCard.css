@@ -9,9 +9,9 @@
   gap: 16px;
 }
 
-.ProductDetailCard .ImageThumbnails img {
-  width: 75px;
-  height: 93px;
+.ProductDetailCard .ThumbnailImage {
+  width: 75px !important;
+  height: 93px !important;
   border-radius: 8px;
   cursor: pointer;
 }

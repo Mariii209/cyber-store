@@ -4,6 +4,7 @@ import { useParams, useSearchParams } from "react-router-dom";
 import NavBar from "../../NavBar";
 import CategoryPath from "../ProductPage/CategoryPath";
 import ProductDetailCard from "./ProductDetailCard";
+import ServiceHighlights from "./ServiceHightlights";
 
 import { iphone14Series } from "../../ProductData/Phones/Apple/Iphone14";
 
@@ -38,6 +39,7 @@ export default function ProductDetail() {
         id={`${product.name} - ${colorData.name}`}
       />
       <ProductDetailCard product={product} selectedColor={colorData} />
+      <ServiceHighlights />
     </div>
   );
 }
