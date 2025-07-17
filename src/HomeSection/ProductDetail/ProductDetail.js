@@ -5,6 +5,7 @@ import NavBar from "../../NavBar";
 import CategoryPath from "../ProductPage/CategoryPath";
 import ProductDetailCard from "./ProductDetailCard";
 import ServiceHighlights from "./ServiceHightlights";
+import "./ProductDetail.css";
 
 import { iphone14Series } from "../../ProductData/Phones/Apple/Iphone14";
 
@@ -17,9 +18,12 @@ export default function ProductDetail() {
 
   if (!product) {
     return (
-      <div>
+      <div className="ProductDetail">
         <NavBar />
-        <CategoryPath category="Phone" id="iPhone" />
+
+        <div className="CategoryPathContainer">
+          <CategoryPath category="Phone" id="iPhone" />
+        </div>
         <h2>Product not found 😢</h2>
       </div>
     );
@@ -32,12 +36,15 @@ export default function ProductDetail() {
     ) || product.colors[0];
 
   return (
-    <div>
+    <div className="ProductDetail">
       <NavBar />
-      <CategoryPath
-        category="Phone"
-        id={`${product.name} - ${colorData.name}`}
-      />
+
+      <div className="CategoryPathContainer">
+        <CategoryPath
+          category="Phone"
+          id={`${product.name} - ${colorData.name}`}
+        />
+      </div>
       <ProductDetailCard product={product} selectedColor={colorData} />
       <ServiceHighlights />
     </div>
