@@ -8,12 +8,12 @@
   justify-content: space-between;
 }
 
-.Footer .FooterAbout {
+.Footer .FooterContent .FooterAbout {
   max-width: 350px;
   width: 100%;
 }
 
-.Footer .FooterAbout p {
+.Footer .FooterContent .FooterAbout .FooterAboutText {
   color: #cfcfcf;
   font-size: 14px;
   font-style: normal;
@@ -22,7 +22,7 @@
   margin-top: 24px;
 }
 
-.Footer h4 {
+.Footer .FooterContent h4 {
   color: white;
   font-size: 16px;
   font-style: normal;
@@ -30,13 +30,13 @@
   line-height: 16px;
 }
 
-.Footer ul {
+.Footer .FooterContent ul {
   list-style: none;
   padding-left: 0;
   margin: 0;
 }
 
-.Footer li {
+.Footer .FooterContent li {
   color: #cfcfcf;
   font-size: 14px;
   font-style: normal;

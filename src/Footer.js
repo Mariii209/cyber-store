@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="FooterContent">
         <section className="FooterAbout">
           <img src={LogoCyber} alt="" />
-          <p>
+          <p className="FooterAboutText">
             We are a residential interior design firm located in Portland. Our
             boutique-studio offers more than
           </p>
