@@ -9,7 +9,7 @@
   margin-bottom: 32px;
 }
 
-.Category h4 {
+.Category .CategoryBrowser h4 {
   font-family: Inter;
   font-size: 24px;
   font-style: normal;
@@ -18,11 +18,11 @@
   letter-spacing: 0.24px;
 }
 
-.Category .Arrow {
+.Category .CategoryBrowser .Arrow {
   font-size: 24px;
 }
 
-.Category .LeftArrow {
+.Category .CategoryBrowser .LeftArrow {
   margin-right: 25px;
 }
 
@@ -44,7 +44,7 @@
   color: black;
 }
 
-.Category .CategoryItem p {
+.Category .CategoryList .CategoryItem p {
   margin: 8px 0 0;
   font-family: Inter;
   font-size: 16px;
@@ -53,7 +53,7 @@
   line-height: 24px;
 }
 
-.Category .CategoryItem .CategoryIcon {
+.Category .CategoryList .CategoryItem .CategoryIcon {
   font-size: 24px;
 }
 
@@ -70,7 +70,7 @@
     gap: 16px;
   }
 
-  .Category .LeftArrow {
+  .Category .CategoryBrowser .LeftArrow {
     margin-right: 12px;
   }
 }
