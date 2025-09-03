@@ -134,7 +134,7 @@ export default function Banners() {
               />
               <img src={WatchOnTop} alt="SmartWatch" className="SmartWatch" />
             </div>
-            <div className="carousel-caption ">
+            <div className="carousel-caption">
               <h3 className="ProductTitle">Popular Products</h3>
               <p className="ProductDescription">
                 iPad combines a magnificent 10.2-inch Retina display, incredible
