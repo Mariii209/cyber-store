@@ -15,7 +15,7 @@
   padding: 2rem;
 }
 
-.MenuBackdrop {
+.SlideMenu .MenuBackdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -24,35 +24,35 @@
   z-index: 999;
 }
 
-.SlideInfo.open {
+.SlideMenu .MenuBackdrop .SlideInfo.open {
   right: 0;
 }
 
-.Xmark {
+.SlideMenu .MenuBackdrop .SlideInfo .MobileMenuTopBar .Xmark {
   font-size: 27px;
 }
 
-.SlideMenu .MobileMenuTopBar {
+.SlideMenu .MenuBackdrop .SlideInfo .MobileMenuTopBar {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.SlideMenu .MobileMenuIcons {
+.SlideMenu .MenuBackdrop .SlideInfo .MobileMenuTopBar .MobileMenuIcons {
   display: flex;
   gap: 12px;
 }
 
-.SlideMenu .MobileMenuIcons a {
+.SlideMenu .MenuBackdrop .SlideInfo .MobileMenuTopBar .MobileMenuIcons a {
   color: black;
 }
 
-.SlideMenu .MobileMenuSearch {
+.SlideMenu .MenuBackdrop .SlideInfo .MobileMenuSearch {
   position: relative;
   margin-top: 15px;
 }
 
-.SlideMenu .MobileMenuSearch i {
+.SlideMenu .MenuBackdrop .SlideInfo .MobileMenuSearch i {
   position: absolute;
   top: 34%;
   left: 10px;
@@ -60,7 +60,7 @@
   font-size: 15px;
 }
 
-.SlideMenu .MobileMenuSearch input {
+.SlideMenu .MenuBackdrop .SlideInfo .MobileMenuSearch input {
   width: 100%;
   border-radius: 8px;
   outline: none;
@@ -70,14 +70,14 @@
   padding-left: 32px;
 }
 
-.SlideMenu .MobileMenuLinks {
+.SlideMenu .MenuBackdrop .SlideInfo .MobileMenuLinks {
   margin: 0;
   padding: 0;
   list-style-type: none;
   margin-top: 20px;
 }
 
-.SlideMenu .MobileMenuLinks li:not(:last-child) {
+.SlideMenu .MenuBackdrop .SlideInfo .MobileMenuLinks li:not(:last-child) {
   margin-bottom: 18px;
 }
 
@@ -95,7 +95,7 @@
     display: block;
   }
 
-  .SlideInfo.open {
+  .SlideMenu .SlideInfo.open {
     right: 0;
   }
 }
