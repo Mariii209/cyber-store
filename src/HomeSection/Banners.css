@@ -35,7 +35,13 @@
   left: 120px;
 }
 
-.Banners .BannersSection .PopularProductCard .ProductContent .ProductTitle {
+.Banners .BannersSection .PopularProductCard .ProductContent .ProductTitle,
+.Banners
+  .BannersCarousel
+  .carousel-inner
+  .carousel-item
+  .carousel-caption
+  .ProductTitle {
   font-family: Inter;
   font-size: 33px;
   font-style: normal;
@@ -52,7 +58,7 @@
 .Banners
   .BannersCarousel
   .carousel-inner
-  .CarouselContaine
+  .carousel-item
   .carousel-caption
   .ProductDescription {
   color: #909090;
