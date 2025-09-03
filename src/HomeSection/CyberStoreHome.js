@@ -31,7 +31,7 @@ export default function CyberStoreHome() {
             </div>
           </div>
           <div className="col-lg-4  HeroImageContainer">
-            <img src={Hero} alt="" className=" HeroImage" />
+            <img src={Hero} alt="" className="HeroImage" />
           </div>
         </div>
       </section>

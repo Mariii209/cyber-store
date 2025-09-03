@@ -9,7 +9,7 @@ body {
   width: 100vw;
 }
 
-.CyberStoreHome .HeroTagline {
+.CyberStoreHome .HeroSection .align-items-center .HeroTextContent .HeroTagline {
   color: #fff;
   font-family: Inter;
   font-size: 25px;
@@ -20,7 +20,7 @@ body {
   opacity: 0.4;
 }
 
-.CyberStoreHome .HeroTitle {
+.CyberStoreHome .HeroSection .align-items-center .HeroTextContent .HeroTitle {
   color: #fff;
   font-family: Inter;
   font-size: 96px;
@@ -32,11 +32,15 @@ body {
   margin-bottom: 24px;
 }
 
-.CyberStoreHome .HeroTitle p {
+.CyberStoreHome .HeroSection .align-items-center .HeroTextContent .HeroTitle p {
   font-weight: 600;
 }
 
-.CyberStoreHome .HeroDescription {
+.CyberStoreHome
+  .HeroSection
+  .align-items-center
+  .HeroTextContent
+  .HeroDescription {
   color: #909090;
   font-family: Inter;
   font-size: 18px;
@@ -46,7 +50,11 @@ body {
   margin-bottom: 24px;
 }
 
-.CyberStoreHome .HeroButtonContainer {
+.CyberStoreHome
+  .HeroSection
+  .align-items-center
+  .HeroTextContent
+  .HeroButtonContainer {
   display: inline-block;
   border-radius: 6px;
   border: 1px solid white;
@@ -54,7 +62,12 @@ body {
   text-align: center;
 }
 
-.CyberStoreHome .HeroButton {
+.CyberStoreHome
+  .HeroSection
+  .align-items-center
+  .HeroTextContent
+  .HeroButtonContainer
+  .HeroButton {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -64,12 +77,12 @@ body {
   font-weight: 500;
 }
 
-.CyberStoreHome .HeroImageContainer {
+.CyberStoreHome .HeroSection .align-items-center .HeroImageContainer {
   margin-top: 10%;
 }
 
 @media (max-width: 1200px) {
-  .CyberStoreHome .HeroTitle {
+  .CyberStoreHome .HeroSection .align-items-center .HeroTextContent .HeroTitle {
     font-size: 79px;
   }
 }
@@ -80,18 +93,22 @@ body {
     height: 1240px;
   }
 
-  .CyberStoreHome .HeroTextContent {
+  .CyberStoreHome .HeroSection .align-items-center .HeroTextContent {
     text-align: center;
     margin: 80px 0 65px;
     padding: 0 30px;
   }
 
-  .CyberStoreHome .HeroTitle {
-    display: inline !important;
+  .CyberStoreHome .HeroSection .align-items-center .HeroTextContent .HeroTitle {
+    display: inline;
     text-align: center;
   }
 
-  .CyberStoreHome .HeroImage {
+  .CyberStoreHome
+    .HeroSection
+    .align-items-center
+    .HeroImageContainer
+    .HeroImage {
     padding: 0 30px;
     width: 100%;
     height: auto;
