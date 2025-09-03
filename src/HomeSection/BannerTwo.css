@@ -14,7 +14,7 @@
   gap: 16px;
 }
 
-.BannerTwo .Title {
+.BannerTwo .BannerContainer .Title {
   color: #fff;
   text-align: center;
   font-size: 72px;
@@ -24,7 +24,7 @@
   letter-spacing: -0.72px;
 }
 
-.BannerTwo .Subtitle {
+.BannerTwo .BannerContainer .Subtitle {
   color: #787878;
   text-align: center;
   font-family: Inter;
@@ -34,7 +34,7 @@
   line-height: 32px; /* 200% */
 }
 
-.BannerTwo .CtaContainer {
+.BannerTwo .BannerContainer .CtaContainer {
   display: flex;
   padding: 16px 56px;
   justify-content: center;
@@ -44,7 +44,7 @@
   border: 1px solid #fff;
 }
 
-.BannerTwo .Cta {
+.BannerTwo .BannerContainer .CtaContainer .Cta {
   color: #fff;
   font-style: normal;
   font-weight: 500;
