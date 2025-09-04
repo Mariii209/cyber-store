@@ -1,97 +1,82 @@
-.ShopSpotlight {
-  width: 100vw;
-  padding: 0;
-  margin: 0;
-}
-
 .ShopSpotlight .FeaturedProductsSection {
-  overflow: hidden;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 310px 310px;
   grid-template-areas:
     "PlayStation PlayStation MacbookAir MacbookAir"
     "AppleAirPods AppleVisionPro MacbookAir MacbookAir";
 }
 
-.ShopSpotlight .PlayStation {
-  grid-area: PlayStation;
-  background: #f5f5f5;
-  overflow: hidden;
+.ProductInfo {
+  padding: 15px;
 }
 
-.ShopSpotlight .MacbookAir {
+.ShopSpotlight .FeaturedProductsSection .PlayStation {
+  grid-area: PlayStation;
+  background: #f5f5f5;
+}
+
+.ShopSpotlight .FeaturedProductsSection .MacbookAir {
   grid-area: MacbookAir;
   background: #eee;
-  position: relative;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding-left: 500px;
   overflow: hidden;
-  height: 100%;
 }
 
-.ShopSpotlight .MacbookInfo {
-  z-index: 2;
-  width: 600px;
-}
-
-.ShopSpotlight .ProductImageMacbook {
-  flex: 0 0 300px;
-  position: relative;
-  right: -50px;
-  z-index: 1;
-}
-
-.ShopSpotlight .AppleAirPods {
+.ShopSpotlight .FeaturedProductsSection .AppleAirPods {
   grid-area: AppleAirPods;
   background: #eee;
   overflow: hidden;
-  padding-left: 151px !important;
 }
 
-.ShopSpotlight .AppleVisionPro {
+.ShopSpotlight .FeaturedProductsSection .AppleVisionPro {
   grid-area: AppleVisionPro;
   background: #111;
   color: white;
   overflow: hidden;
 }
 
-.ShopSpotlight .AppleVisionPro h3 {
+.ShopSpotlight .FeaturedProductsSection .AppleVisionPro .ProductImage {
+  width: 150px;
+  transform: translate(-91%, -73%);
+}
+
+.ShopSpotlight .FeaturedProductsSection .AppleVisionPro .ProductInfo h3 {
   font-weight: 300;
 }
 
-.ShopSpotlight .ProductCard {
+.ShopSpotlight .FeaturedProductsSection .ProductCards {
   display: flex;
   align-items: center;
   position: relative;
   overflow: hidden;
   height: 100%;
-  padding-left: 200px;
 }
 
-.ShopSpotlight .P5content {
-  padding: 0 50px 0 100px;
+.ShopSpotlight .FeaturedProductsSection .PlayStation .ProductImage {
+  position: relative;
+  top: 55%;
+  transform: translate(-59%, -50%);
+  width: 300px;
 }
 
-.ShopSpotlight .ProductImage {
-  flex: 1;
-  position: absolute;
-  left: 0;
-  top: 50%;
-  transform: translate(-50%, -50%); /* halfway out and vertically centered */
-  width: 300px; /* or whatever fits your design */
-  height: auto;
-  z-index: 1;
-  pointer-events: none; /* avoids interfering with hover/clicks */
+.ShopSpotlight .FeaturedProductsSection .AppleAirPods .ProductImage {
+  position: relative;
+  top: 55%;
+  width: 169px;
+  transform: translate(-59%, -50%);
 }
 
-.ShopSpotlight .ProductInfo {
-  padding-right: 20px;
+.ShopSpotlight .FeaturedProductsSection .AppleVisionPro .ProductImage {
+  position: relative;
+  top: 55%;
+  width: 169px;
+  transform: translate(-98%, -78%);
 }
 
-.ShopSpotlight .PlayStation h3 {
+.ShopSpotlight .FeaturedProductsSection .PlayStation .P5content h3 {
   color: #000;
   font-family: Inter;
   font-size: 49px;
@@ -100,23 +85,7 @@
   line-height: 40px;
 }
 
-.ShopSpotlight .PlayStation p {
-  color: #909090;
-  font-family: Inter;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24px;
-}
-
-.ShopSpotlight .ProductFeatured {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-}
-
-.ShopSpotlight .AppleAirPods h3 {
+.ShopSpotlight .FeaturedProductsSection .AppleAirPods .ProductInfo h3 {
   color: #000;
   font-family: Inter;
   font-size: 29px;
@@ -125,44 +94,36 @@
   line-height: 40px;
 }
 
-.ShopSpotlight p {
+.ShopSpotlight .FeaturedProductsSection .ProductCards .ProductInfo p,
+.ShopSpotlight .FeaturedProductsSection .ProductFeatured .MacbookInfo p {
   color: #909090;
   font-family: Inter;
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
-  object-fit: contain;
   line-height: 24px;
 }
 
-.ShopSpotlight .ProductCta {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.ShopSpotlight .FeaturedProductsSection .MacbookAir .MacbookInfo a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: black;
   border-radius: 6px;
   border: 1px solid black;
   text-align: center;
+  padding: 16px 0;
+  display: inline-block;
   width: 100%;
-  padding: 16px 56px;
-  margin-top: 16px;
 }
 
-.ShopSpotlight .Macbookh3 {
+.ShopSpotlight .FeaturedProductsSection .MacbookAir .MacbookInfo .Macbookh3 {
   color: #000;
   font-family: Inter;
   font-size: 64px;
   font-style: normal;
   font-weight: 100;
   line-height: 56px;
-}
-
-.ShopSpotlight .ProductCta a {
-  text-decoration: none;
-  font-family: Inter;
-  font-size: 16px;
-  font-weight: 500;
-  width: 100px;
-  color: black;
 }
 
 @media (max-width: 1200px) {
@@ -173,14 +134,13 @@
       "AppleAirPods"
       "AppleVisionPro";
     grid-template-columns: 1fr;
-    height: auto !important;
+    height: auto;
     display: flex;
     flex-direction: column;
     text-align: center;
   }
 
-  .ShopSpotlight .ProductCard,
-  .ProductFeatured {
+  .ShopSpotlight .FeaturedProductsSection .ProductCards {
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -191,68 +151,37 @@
     padding: 20px 0 20px 0 !important;
   }
 
-  .ShopSpotlight .ProductImage {
+  .ShopSpotlight .FeaturedProductsSection .AppleVisionPro .ProductImage,
+  .ShopSpotlight .FeaturedProductsSection .AppleAirPods .ProductImage,
+  .ShopSpotlight .FeaturedProductsSection .PlayStation .ProductImage {
     position: static;
     transform: none;
-    width: 80%; /* or 100% if you want full width */
+    width: 80%;
     max-width: 400px;
     margin-bottom: 20px;
   }
 
-  .ShopSpotlight .ProductImage img,
-  .ProductImageMacbook img {
+  .ShopSpotlight .FeaturedProductsSection .ProductCards .ProductImage img,
+  .ShopSpotlight .FeaturedProductsSection .MacbookAir .ProductImageMacbook img {
     width: 100%;
     height: auto;
   }
 
-  .ShopSpotlight .MacbookInfo {
-    width: 100%;
-    text-align: center;
-    padding: 0;
-  }
-
-  .ShopSpotlight .Macbookh3 {
+  .ShopSpotlight .FeaturedProductsSection .MacbookAir .MacbookInfo .Macbookh3 {
     font-size: 36px;
     line-height: 32px;
     text-align: center;
     margin-bottom: 16px;
   }
 
-  .ShopSpotlight .ProductCta {
-    width: auto;
-    margin-top: 20px;
-  }
-
-  .ShopSpotlight .ProductCta a {
-    width: auto;
-  }
-
-  .ShopSpotlight .AppleAirPods {
-    padding-left: 0 !important;
-  }
-
-  .ShopSpotlight .P5content {
-    padding: 0 20px;
-  }
-
-  .ShopSpotlight .MacbookAir {
-    align-items: center;
+  .ShopSpotlight .FeaturedProductsSection .MacbookAir {
     flex-direction: column-reverse;
-    justify-content: center;
-    height: auto;
-    overflow: visible;
-    width: 100%;
-    padding: 20px 16px 20px 16px !important;
+    padding: 40px 5%;
+    gap: 30px;
   }
 
-  .ShopSpotlight .ProductImageMacbook {
-    padding: 0 !important;
-  }
-
-  .ShopSpotlight .ProductImageMacbook {
-    position: static;
-    transform: none;
-    width: 80%; /* or 100% if you want full width */
+  .ShopSpotlight .FeaturedProductsSection .MacbookAir .ProductImageMacbook {
     max-width: 400px;
+    width: 100%;
   }
 }

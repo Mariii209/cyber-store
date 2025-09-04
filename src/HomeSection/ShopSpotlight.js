@@ -7,11 +7,11 @@ import AppleAirPods from "./AppleAirPods.png";
 
 export default function ShopSpotlight() {
   return (
-    <div className="ShopSpotlight ">
+    <div className="ShopSpotlight">
       <section className="FeaturedProductsSection">
-        <div className="ProductCard PlayStation">
+        <div className="ProductCards PlayStation">
           <div className="ProductImage">
-            <img src={PlayStation} alt="Playstation 5" className="" />
+            <img src={PlayStation} alt="Playstation 5" />
           </div>
           <div className="ProductInfo P5content">
             <h3>Playstation 5</h3>
@@ -21,7 +21,7 @@ export default function ShopSpotlight() {
             </p>
           </div>
         </div>
-        <div className="ProductCard AppleAirPods">
+        <div className="ProductCards AppleAirPods">
           <div className="ProductImage">
             <img src={AppleAirPods} alt="Apple AirPods Max" />
           </div>
@@ -32,7 +32,7 @@ export default function ShopSpotlight() {
             <p>Computational audio. Listen, it's powerful.</p>
           </div>
         </div>
-        <div className="ProductCard AppleVisionPro">
+        <div className="ProductCards AppleVisionPro">
           <div className="ProductImage">
             <img src={AppleVisionPro} alt="Apple Vision Pro" />
           </div>
@@ -52,9 +52,8 @@ export default function ShopSpotlight() {
               The new 15‑inch MacBook Air makes room for more of what you love
               with a spacious Liquid Retina display.
             </p>
-            <div className="ProductCta">
-              <a href="/">Shop Now</a>
-            </div>
+
+            <a href="/">Shop Now</a>
           </div>
           <div className="ProductImageMacbook">
             <img src={MacBookPro16} alt="Macbook Air" />
