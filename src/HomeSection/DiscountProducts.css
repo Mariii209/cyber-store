@@ -13,14 +13,14 @@
   gap: 16px;
 }
 
-.DiscountProducts .DiscountInfo {
+.DiscountProducts .Discount .DiscountInfo {
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
   line-height: 32px;
 }
 
-.DiscountProducts .ProductCard {
+.DiscountProducts .DiscountContainer .ProductCard {
   border-radius: 9px;
   display: flex;
   padding: 50px 16px;
@@ -32,7 +32,7 @@
   position: relative;
 }
 
-.DiscountProducts .ProductCard .Heart {
+.DiscountProducts .DiscountContainer .ProductCard .Heart {
   color: #909090c4;
   position: absolute;
   right: 13px;
@@ -41,12 +41,12 @@
   margin-bottom: 16px;
 }
 
-.DiscountProducts img {
+.DiscountProducts .DiscountContainer .ProductCard img {
   height: 160px;
   width: 160px;
 }
 
-.DiscountProducts .ProductCard .ProductTitle {
+.DiscountProducts .DiscountContainer .ProductCard .ProductTitle {
   text-align: center;
   font-family: Inter;
   font-size: 16px;
@@ -57,7 +57,7 @@
   margin: 16px 0;
 }
 
-.DiscountProducts .ProductCard .ProductPrice {
+.DiscountProducts .DiscountContainer .ProductCard .ProductPrice {
   text-align: center;
   font-family: Inter;
   font-size: 24px;
@@ -67,9 +67,17 @@
   letter-spacing: 0.72px;
 }
 
-.DiscountProducts .ProductCard .BuyNowButton {
+.DiscountProducts .DiscountContainer .ProductCard .BuyButtonWrapper {
+  max-width: 100%;
+  width: 100%;
+}
+
+.DiscountProducts
+  .DiscountContainer
+  .ProductCard
+  .BuyButtonWrapper
+  .BuyNowButton {
   display: flex;
-  padding: 12px 55px;
   justify-content: center;
   align-items: center;
   gap: 8px;
@@ -83,6 +91,7 @@
   font-style: normal;
   font-weight: 500;
   line-height: 24px;
+  padding: 12px 0;
 }
 
 @media (max-width: 992px) {
@@ -92,15 +101,16 @@
 }
 
 @media (max-width: 600px) {
-  .DiscountProducts img {
-    height: 104px;
-    width: 104px;
+  .DiscountProducts .DiscountContainer .ProductCard img {
+    height: 85px;
+    width: 85px;
   }
 
   .DiscountProducts .DiscountContainer {
     margin: 38px 0 32px;
   }
-  .DiscountProducts .ProductCard .BuyNowButton {
-    padding: 12px 34px;
+
+  .DiscountProducts .DiscountContainer .ProductCard .ProductTitle {
+    font-size: 14px;
   }
 }

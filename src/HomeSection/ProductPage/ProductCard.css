@@ -45,7 +45,7 @@
   letter-spacing: 0.72px;
 }
 
-.ProductCard .BuyNowButton {
+.ProductCard .BuyButtonWrapper .BuyNowButton {
   display: flex;
   padding: 12px 55px;
   justify-content: center;
