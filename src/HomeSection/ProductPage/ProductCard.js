@@ -14,11 +14,10 @@ export default function ProductCard({ id, color, image, title, price }) {
         <p className="ProductTitle">{title}</p>
       </Link>
       <p className="ProductPrice">${price}</p>
-      <div className="BuyButtonWrapper">
-        <a className="BuyNowButton" href="/">
-          Buy Now
-        </a>
-      </div>
+
+      <a className="BuyNowButton" href="/">
+        Buy Now
+      </a>
     </div>
   );
 }
