@@ -7,6 +7,7 @@ export const iphone14Series = [
     colors: [
       {
         name: "Blue",
+        hex: "#337099",
         image: "/Images/Apple/Phone/BlueiPhone14andPlus.png",
         images: [
           "/Images/Apple/Phone/BlueiPhone14andPlus.png",
@@ -17,6 +18,7 @@ export const iphone14Series = [
       },
       {
         name: "Purple",
+        hex: "#8C61B7",
         image: "/Images/Apple/Phone/PurpleiPhone14andPlus.png",
         images: [
           "/Images/Apple/Phone/PurpleiPhone14andPlus.png",
@@ -27,6 +29,7 @@ export const iphone14Series = [
       },
       {
         name: "Midnight",
+        hex: "#141D29",
         image: "/Images/Apple/Phone/MidnightiPhone14andPlus.png",
         images: [
           "/Images/Apple/Phone/MidnightiPhone14andPlus.png",
@@ -37,6 +40,7 @@ export const iphone14Series = [
       },
       {
         name: "Starlight",
+        hex: "#FEFBF2",
         image: "/Images/Apple/Phone/StarlightiPhone14andPlus.png",
         images: [
           "/Images/Apple/Phone/StarlightiPhone14andPlus.png",
@@ -47,6 +51,7 @@ export const iphone14Series = [
       },
       {
         name: "Red",
+        hex: "#A31111",
         image: "/Images/Apple/Phone/RediPhone14andPlus.png",
         images: [
           "/Images/Apple/Phone/RediPhone14andPlus.png",
@@ -57,6 +62,7 @@ export const iphone14Series = [
       },
       {
         name: "Yellow",
+        hex: "#FEECA2",
         image: "/Images/Apple/Phone/YellowiPhone14andPlus.png",
         images: [
           "/Images/Apple/Phone/YellowiPhone14andPlus.png",
@@ -105,6 +111,7 @@ export const iphone14Series = [
     colors: [
       {
         name: "Blue",
+        hex: "#337099",
         image: "/Images/Apple/Phone/BlueiPhone14andPlus.png",
         images: [
           "/Images/Apple/Phone/BlueiPhone14andPlus.png",
@@ -115,6 +122,7 @@ export const iphone14Series = [
       },
       {
         name: "Purple",
+        hex: "#8C61B7",
         image: "/Images/Apple/Phone/PurpleiPhone14andPlus.png",
         images: [
           "/Images/Apple/Phone/PurpleiPhone14andPlus.png",
@@ -125,6 +133,7 @@ export const iphone14Series = [
       },
       {
         name: "Midnight",
+        hex: "#141D29",
         image: "/Images/Apple/Phone/MidnightiPhone14andPlus.png",
         images: [
           "/Images/Apple/Phone/MidnightiPhone14andPlus.png",
@@ -135,6 +144,7 @@ export const iphone14Series = [
       },
       {
         name: "Starlight",
+        hex: "#FEFBF2",
         image: "/Images/Apple/Phone/StarlightiPhone14andPlus.png",
         images: [
           "/Images/Apple/Phone/StarlightiPhone14andPlus.png",
@@ -145,6 +155,7 @@ export const iphone14Series = [
       },
       {
         name: "Red",
+        hex: "#A31111",
         image: "/Images/Apple/Phone/RediPhone14andPlus.png",
         images: [
           "/Images/Apple/Phone/RediPhone14andPlus.png",
@@ -155,6 +166,7 @@ export const iphone14Series = [
       },
       {
         name: "Yellow",
+        hex: "#FEECA2",
         image: "/Images/Apple/Phone/YellowiPhone14andPlus.png",
         images: [
           "/Images/Apple/Phone/YellowiPhone14andPlus.png",
@@ -202,6 +214,7 @@ export const iphone14Series = [
     colors: [
       {
         name: "Deep Purple",
+        hex: "#372E3B",
         image: "/Images/Apple/Phone/DeepPurpleiPhone14ProandMax.png",
         images: [
           "/Images/Apple/Phone/DeepPurpleiPhone14ProandMax.png",
@@ -212,6 +225,7 @@ export const iphone14Series = [
       },
       {
         name: "Gold",
+        hex: "#F4E5CC",
         image: "/Images/Apple/Phone/GoldiPhone14ProandMax.png",
         images: [
           "/Images/Apple/Phone/GoldiPhone14ProandMax.png",
@@ -222,6 +236,7 @@ export const iphone14Series = [
       },
       {
         name: "Silver",
+        hex: "#EDF0EF",
         image: "/Images/Apple/Phone/SilveriPhone14ProandMax.png",
         images: [
           "/Images/Apple/Phone/SilveriPhone14ProandMax.png",
@@ -232,6 +247,7 @@ export const iphone14Series = [
       },
       {
         name: "Space Black",
+        hex: "#1C1C1E",
         image: "/Images/Apple/Phone/SpaceBlackiPhone14ProandMax.png",
         images: [
           "/Images/Apple/Phone/SpaceBlackiPhone14ProandMax.png",
@@ -279,6 +295,7 @@ export const iphone14Series = [
     colors: [
       {
         name: "Deep Purple",
+        hex: "#372E3B",
         image: "/Images/Apple/Phone/DeepPurpleiPhone14ProandMax.png",
         images: [
           "/Images/Apple/Phone/DeepPurpleiPhone14ProandMax.png",
@@ -289,6 +306,7 @@ export const iphone14Series = [
       },
       {
         name: "Gold",
+        hex: "#F4E5CC",
         image: "/Images/Apple/Phone/GoldiPhone14ProandMax.png",
         images: [
           "/Images/Apple/Phone/GoldiPhone14ProandMax.png",
@@ -299,6 +317,7 @@ export const iphone14Series = [
       },
       {
         name: "Silver",
+        hex: "#EDF0EF",
         image: "/Images/Apple/Phone/SilveriPhone14ProandMax.png",
         images: [
           "/Images/Apple/Phone/SilveriPhone14ProandMax.png",
@@ -309,6 +328,7 @@ export const iphone14Series = [
       },
       {
         name: "Space Black",
+        hex: "#1C1C1E",
         image: "/Images/Apple/Phone/SpaceBlackiPhone14ProandMax.png",
         images: [
           "/Images/Apple/Phone/SpaceBlackiPhone14ProandMax.png",

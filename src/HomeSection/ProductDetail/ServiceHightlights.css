@@ -1,6 +1,6 @@
 .ServiceHighlights {
   display: flex;
-  justify-content: end;
+  justify-content: space-between;
   gap: 32px;
   margin-top: 32px;
 }

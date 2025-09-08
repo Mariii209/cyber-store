@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./ProductDetailCard.css";
+import ServiceHighlights from "./ServiceHightlights";
 
 export default function ProductDetailCard({ product, selectedColor }) {
   // Find the initial color index based on the passed selectedColor prop
@@ -65,9 +66,10 @@ export default function ProductDetailCard({ product, selectedColor }) {
                   index === selectedColorIndex ? "SelectedColor" : ""
                 }`}
                 style={{
-                  backgroundImage: `url(${c.image})`,
+                  backgroundColor: c.hex,
+
                   border:
-                    index === selectedColorIndex ? "1px solid black" : "none",
+                    index === selectedColorIndex ? "2px solid black" : "none",
                 }}
                 title={c.name}
               ></div>
@@ -149,6 +151,8 @@ export default function ProductDetailCard({ product, selectedColor }) {
           <button className="WishlistButton">Add to Wishlist</button>
           <button className="CartButton">Add to Cart</button>
         </div>
+
+        <ServiceHighlights />
       </div>
     </div>
   );
