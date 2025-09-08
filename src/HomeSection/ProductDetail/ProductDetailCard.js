@@ -66,17 +66,8 @@ export default function ProductDetailCard({ product, selectedColor }) {
                 }`}
                 style={{
                   backgroundImage: `url(${c.image})`,
-                  backgroundSize: "cover",
-                  backgroundPosition: "center",
-                  width: "40px",
-                  height: "40px",
-                  borderRadius: "50%",
-                  marginRight: "8px",
                   border:
-                    index === selectedColorIndex
-                      ? "2px solid black"
-                      : "1px solid #ccc",
-                  cursor: "pointer",
+                    index === selectedColorIndex ? "1px solid black" : "none",
                 }}
                 title={c.name}
               ></div>
