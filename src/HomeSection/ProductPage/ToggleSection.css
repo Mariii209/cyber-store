@@ -1,15 +1,15 @@
-.Section {
+.ToggleSection {
   margin-bottom: 30px;
 }
 
-.Section .Title {
+.ToggleSection .Title {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 16px;
 }
 
-.Section .Title h3 {
+.ToggleSection .Title h3 {
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
@@ -17,17 +17,17 @@
   letter-spacing: 0.54px;
 }
 
-.Section hr {
+.ToggleSection hr {
   color: gray;
   margin: 14px 0 16px;
 }
 
-.Section form {
+.ToggleSection form {
   position: relative;
   margin-bottom: 16px;
 }
 
-.Section form .SearchIcon {
+.ToggleSection form .SearchIcon {
   position: absolute;
   top: 50%;
   left: 10px;
@@ -35,7 +35,7 @@
   color: gray;
 }
 
-.Section form input {
+.ToggleSection form input {
   width: 100%;
   height: 40px;
   padding: 8px 8px 8px 35px;
@@ -45,13 +45,13 @@
   outline: none;
 }
 
-.Section ul {
+.ToggleSection ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.Section ul li {
+.ToggleSection ul li {
   display: flex;
   align-items: center;
   padding: 8px 0;
@@ -61,7 +61,25 @@
   line-height: 24px;
 }
 
-.Filters ul li input {
+.ToggleSection ul li input {
   margin-right: 8px;
   accent-color: black;
+}
+
+.ToggleSection .price-range-container {
+  width: 300px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.ToggleSection .price-range-container .price-labels {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.ToggleSection .price-range-container input[type="range"] {
+  width: 100%;
+  margin-bottom: 10px;
 }

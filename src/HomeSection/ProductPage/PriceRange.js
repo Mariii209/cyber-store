@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import ToggleSection from "./ToggleSection";
-import "./PriceRange.css";
 
 export default function PriceRange() {
   const [minPrice, setMinPrice] = useState(0);

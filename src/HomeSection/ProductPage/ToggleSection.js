@@ -6,7 +6,7 @@ export default function ToggleSection({ title, children }) {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <div className="Section">
+    <div className="ToggleSection">
       <div className="Title" onClick={toggle}>
         <h3>{title}</h3>
         <i
