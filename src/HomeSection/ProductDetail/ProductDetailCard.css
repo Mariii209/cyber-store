@@ -1,6 +1,7 @@
 .ProductDetailCard {
   display: flex;
   align-items: center;
+  padding: 0 5%;
 }
 
 .ProductDetailCard .ProductImageContainer {
@@ -187,7 +188,7 @@
   color: white;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1060px) {
   .ProductDetailCard {
     flex-direction: column;
     align-items: center;
