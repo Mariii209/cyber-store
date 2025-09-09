@@ -95,12 +95,14 @@
   align-items: center;
   gap: 24px;
   margin: 24px 0;
+  width: 100%;
 }
 
 .ProductDetailCard .ProductInfoContainer .StorageContianer .StorageOption {
   background-color: transparent;
+  max-width: 100%;
   width: 100%;
-  padding: 16px 24px;
+  padding: 16px 0;
   border-radius: 8px;
 }
 
@@ -109,6 +111,7 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 16px;
   margin: 24px 0;
+  width: 100%;
 }
 
 .ProductDetailCard .ProductInfoContainer .ProductSpecs .ProductSpec {
@@ -151,6 +154,7 @@
   font-weight: 500;
   line-height: 16px;
   margin: 0;
+  width: 100%;
 }
 
 .ProductDetailCard .ProductInfoContainer .ProductDescription {
@@ -167,6 +171,7 @@
   align-items: center;
   gap: 16px;
   margin-top: 32px;
+  width: 100%;
 }
 
 .ProductDetailCard .ProductInfoContainer .ProductActions .WishlistButton,
@@ -188,27 +193,11 @@
   color: white;
 }
 
-@media screen and (max-width: 768px) {
-  .ProductDetailCard .ProductInfoContainer .ProductSpecs {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .ProductImage {
-    width: 250px;
-    height: auto;
-  }
-  .ProductDetailCard .ProductInfoContainer .ProductSpecs .ProductSpec {
-    display: flex;
-    flex-direction: column;
-    padding: 16px 8px;
-    align-items: center;
-    gap: 16px;
-    border-radius: 7px;
-    background: #f4f4f4;
-  }
-}
-
 @media (max-width: 1150px) {
+  .ProductDetailCard {
+    padding: 5%;
+  }
+
   .ProductDetailCard {
     flex-direction: column;
     align-items: center;
@@ -225,8 +214,104 @@
     text-align: center;
   }
 
+  .ProductDetailCard .ProductInfoContainer .ProductSpecs .ProductSpec {
+    flex-direction: column;
+  }
+
   .ProductDetailCard .ColorContainer {
     flex-direction: column;
     align-items: center;
+  }
+
+  .ProductDetailCard .ProductInfoContainer .ProductActions {
+    margin-top: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .ProductDetailCard .ProductImageContainer .ProductImage {
+    width: 340px;
+    height: auto;
+  }
+  .ProductDetailCard .ProductInfoContainer h1 {
+    font-size: 32px;
+    line-height: 36px;
+  }
+
+  .ProductDetailCard .ProductInfoContainer .ProductSpecs {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .ProductDetailCard .ProductInfoContainer .PriceContainer h4 {
+    font-size: 26px;
+  }
+
+  .ProductDetailCard .ProductInfoContainer .PriceContainer h5 {
+    font-size: 21px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .ProductDetailCard .ProductImageContainer .ImageThumbnails .ThumbnailImage {
+    width: 45px;
+    height: 63px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  .ProductDetailCard .ProductImageContainer .ProductImage {
+    width: 250px;
+    height: auto;
+  }
+
+  .ProductDetailCard .ProductInfoContainer .ColorContainer .ColorOptions {
+    gap: 10px;
+  }
+
+  .ProductDetailCard
+    .ProductInfoContainer
+    .ColorContainer
+    .ColorOptions
+    .ColorOption {
+    width: 30px;
+    height: 30px;
+  }
+
+  .ProductDetailCard .ProductInfoContainer .StorageContianer .StorageOption {
+    font-size: 13px;
+    padding: 12px 0;
+  }
+
+  .ProductDetailCard
+    .ProductInfoContainer
+    .ProductSpecs
+    .ProductSpec
+    .SpecIcon {
+    font-size: 21px;
+  }
+
+  .ProductDetailCard
+    .ProductInfoContainer
+    .ProductSpecs
+    .ProductSpec
+    .SpecDetail
+    .SpecLabel,
+  .ProductDetailCard
+    .ProductInfoContainer
+    .ProductSpecs
+    .ProductSpec
+    .SpecDetail
+    .SpecValue {
+    font-size: 11px;
+  }
+
+  .ProductDetailCard .ProductInfoContainer .ProductDescription {
+    font-size: 12px;
+  }
+
+  .ProductDetailCard .ProductInfoContainer .ProductActions .WishlistButton,
+  .ProductDetailCard .ProductInfoContainer .ProductActions .CartButton {
+    padding: 12px 0;
+    font-size: 14px;
   }
 }
