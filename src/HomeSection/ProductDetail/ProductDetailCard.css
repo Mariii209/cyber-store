@@ -115,8 +115,7 @@
   display: flex;
   padding: 16px 8px;
   align-items: center;
-  justify-content: center;
-  gap: 8px;
+  gap: 16px;
   border-radius: 7px;
   background: #f4f4f4;
 }
@@ -173,7 +172,7 @@
 .ProductDetailCard .ProductInfoContainer .ProductActions .WishlistButton,
 .ProductDetailCard .ProductInfoContainer .ProductActions .CartButton {
   width: 100%;
-  padding: 16px 56px;
+  padding: 16px 0;
   background: transparent;
   border: 2px solid black;
   border-radius: 6px;
@@ -189,7 +188,27 @@
   color: white;
 }
 
-@media (max-width: 1060px) {
+@media screen and (max-width: 768px) {
+  .ProductDetailCard .ProductInfoContainer .ProductSpecs {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .ProductImage {
+    width: 250px;
+    height: auto;
+  }
+  .ProductDetailCard .ProductInfoContainer .ProductSpecs .ProductSpec {
+    display: flex;
+    flex-direction: column;
+    padding: 16px 8px;
+    align-items: center;
+    gap: 16px;
+    border-radius: 7px;
+    background: #f4f4f4;
+  }
+}
+
+@media (max-width: 1150px) {
   .ProductDetailCard {
     flex-direction: column;
     align-items: center;
